@@ -15,15 +15,15 @@ function ascal_enqueue_assets()
         [],
         '1.0'
     );
-    
-if (is_front_page()) {
-    wp_enqueue_style(
-        'ascal-homepage',
-        get_template_directory_uri() . '/assets/css/homepage.css',
-        [],
-        '1.0'
-    );
-}
+
+    if (is_front_page()) {
+        wp_enqueue_style(
+            'ascal-homepage',
+            get_template_directory_uri() . '/assets/css/homepage.css',
+            [],
+            '1.0'
+        );
+    }
 
     wp_enqueue_script(
         'ascal-main',
@@ -33,12 +33,21 @@ if (is_front_page()) {
         true
     );
 
+    if (is_page('about')) {
+        wp_enqueue_style(
+            'ascal-about',
+            get_template_directory_uri() . '/assets/css/about.css',
+            [],
+            '1.0'
+        );
+    }
+
     wp_enqueue_style(
-    'ascal-footer',
-    get_template_directory_uri() . '/assets/css/footer.css',
-    [],
-    '1.0'
-);
+        'ascal-footer',
+        get_template_directory_uri() . '/assets/css/footer.css',
+        [],
+        '1.0'
+    );
 }
 add_action('wp_enqueue_scripts', 'ascal_enqueue_assets');
 
@@ -58,7 +67,8 @@ add_action('after_setup_theme', 'ascal_theme_setup');
 
 /* ===== TRANSLATION HELPER ===== */
 
-function ascal_get_lang() {
+function ascal_get_lang()
+{
     $supported = ['en', 'fr', 'de'];
 
     // 1. Check URL param first — ?lang=fr
@@ -80,7 +90,8 @@ function ascal_get_lang() {
     return 'en';
 }
 
-function ascal_load_translations() {
+function ascal_load_translations()
+{
     static $translations = null;
 
     if ($translations !== null) {
@@ -101,7 +112,8 @@ function ascal_load_translations() {
     return $translations;
 }
 
-function _t($key, $fallback = '') {
+function _t($key, $fallback = '')
+{
     $translations = ascal_load_translations();
 
     $keys = explode('.', $key);
