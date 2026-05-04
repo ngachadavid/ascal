@@ -60,3 +60,179 @@
         margin-left: 128px;     /* 2xl:ml-32 */
     }
 }
+
+/* ===== MISSION ===== */
+.mission {
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: #fff;
+}
+
+.mission-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.mission-text {
+    width: 100%;
+    text-align: center;
+}
+
+.mission-line {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1.125rem;        /* text-lg */
+    line-height: 1.75;
+    margin: 0;
+    font-weight: 400;
+}
+
+.mission-bold {
+    font-weight: 700;
+}
+
+.mission-image-wrap {
+    width: 100%;
+}
+
+.mission-image {
+    width: 100%;
+    height: 384px;              /* h-96 */
+    object-fit: cover;
+    object-position: top;
+    border: 1px solid #000;
+    display: block;
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .mission {
+        padding-left: 64px;     /* md:px-16 */
+        padding-right: 64px;
+    }
+
+    .mission-container {
+        flex-direction: row;
+        gap: 64px;              /* md:gap-16 */
+    }
+
+    .mission-text {
+        width: 50%;             /* md:w-1/2 */
+    }
+
+    .mission-line {
+        font-size: 1.25rem;     /* md:text-xl */
+    }
+
+    .mission-image-wrap {
+        width: 40%;             /* md:w-[40%] */
+    }
+}
+
+/* ===== IMPACT ===== */
+.impact {
+    padding: 80px 16px;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.impact-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.impact-title {
+    font-size: 1.25rem;         /* text-xl */
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+}
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 48px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Card wrapper creates the offset shadow effect */
+.impact-card-wrap {
+    position: relative;
+}
+
+.impact-card {
+    position: relative;
+    top: -8px;                  /* -top-2 */
+    left: -8px;                 /* -left-2 */
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.impact-card-img {
+    height: 320px;              /* h-80 */
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.impact-card-title {
+    margin-top: 16px;
+    padding: 0 24px;
+    font-weight: 600;
+    font-size: 1.125rem;        /* text-lg */
+    margin-bottom: 8px;
+    color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+}
+
+.impact-card-desc {
+    padding: 0 24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;            /* text-base */
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+/* Tailwind bg-blue-* equivalents */
+.impact-card--blue-200 { background-color: #bfdbfe; }
+.impact-card--blue-300 { background-color: #93c5fd; }
+.impact-card--blue-400 { background-color: #60a5fa; }
+.impact-card--blue-500 { background-color: #3b82f6; }
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .impact-header {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .impact-title {
+        font-size: 1.875rem;    /* md:text-3xl */
+    }
+
+    .impact-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .impact-card-title {
+        font-size: 1.25rem;     /* md:text-xl */
+    }
+
+    .impact-card-desc {
+        font-size: 1.125rem;    /* md:text-lg */
+    }
+}
