@@ -69,6 +69,24 @@ function ascal_enqueue_assets()
         );
     }
 
+    if (is_page('contact') || is_page('legal')) {
+        wp_enqueue_style(
+            'ascal-contact',
+            get_template_directory_uri() . '/assets/css/contact.css',
+            [],
+            '1.0'
+        );
+    }
+
+    if (is_page('legal')) {
+        wp_enqueue_style(
+            'ascal-legal',
+            get_template_directory_uri() . '/assets/css/legal.css',
+            [],
+            '1.0'
+        );
+    }
+
     wp_enqueue_style(
         'ascal-footer',
         get_template_directory_uri() . '/assets/css/footer.css',
@@ -156,4 +174,3 @@ function _t($key, $fallback = '')
 
     return is_string($value) ? $value : ($fallback ?: $key);
 }
-

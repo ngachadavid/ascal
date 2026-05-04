@@ -117,3 +117,71 @@
         font-size: 1.5rem;      /* md:text-2xl */
     }
 }
+
+/* ===== DONATE MISSION ===== */
+.donate-mission {
+    width: 100%;
+    padding: 80px 24px;
+    background: #fff;
+}
+
+.donate-mission-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.donate-mission-text {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.donate-mission-line {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1.125rem;        /* text-lg */
+    line-height: 1.75;
+    font-weight: 400;
+    margin: 0;
+}
+
+.donate-mission-image-wrap {
+    width: 100%;
+}
+
+.donate-mission-image {
+    width: 100%;
+    height: 384px;              /* h-96 */
+    object-fit: cover;
+    border: 1px solid #000;
+    display: block;
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .donate-mission {
+        padding: 80px 64px;
+    }
+
+    .donate-mission-container {
+        flex-direction: row;
+        gap: 64px;
+    }
+
+    .donate-mission-text {
+        width: 50%;
+    }
+
+    .donate-mission-line {
+        font-size: 1.25rem;     /* md:text-xl */
+    }
+
+    .donate-mission-image-wrap {
+        width: 50%;
+    }
+}

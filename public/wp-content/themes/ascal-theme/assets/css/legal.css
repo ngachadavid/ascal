@@ -1,0 +1,74 @@
+/* ===== LEGAL ===== */
+.legal {
+    width: 100%;
+    background: #fff;
+    padding-top: 128px;         /* pt-32 mobile */
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.legal-container {
+    max-width: 48rem;           /* max-w-3xl */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.legal-header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.legal-title {
+    font-size: 1.875rem;        /* text-3xl */
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.legal-updated {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.875rem;
+}
+
+.legal-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.legal-heading {
+    font-size: 1.25rem;         /* text-xl */
+    font-weight: 700;
+    color: #000;
+}
+
+.legal-text {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.75;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.legal-link {
+    color: #3399FF;
+    text-decoration: none;
+}
+
+.legal-link:hover {
+    text-decoration: underline;
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .legal {
+        padding-top: 80px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
+    .legal-title {
+        font-size: 2.25rem;     /* md:text-4xl */
+    }
+}

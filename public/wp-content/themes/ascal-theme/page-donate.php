@@ -72,6 +72,27 @@ get_header();
         </div>
     </section>
 
+    <!-- Donate Mission -->
+    <section class="donate-mission">
+        <div class="donate-mission-container">
+
+            <!-- Text - Left -->
+            <div class="donate-mission-text">
+                <h2 class="donate-mission-line"><?php echo _t('donateMissionSection.paragraphs.p1'); ?></h2>
+                <h2 class="donate-mission-line"><?php echo _t('donateMissionSection.paragraphs.p2'); ?></h2>
+            </div>
+
+            <!-- Image - Right -->
+            <div class="donate-mission-image-wrap">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/projects/ker.webp"
+                    alt="Support children through ASCA Luxembourg"
+                    class="donate-mission-image" />
+            </div>
+
+        </div>
+    </section>
+
 </main>
 
 <?php get_footer(); ?>

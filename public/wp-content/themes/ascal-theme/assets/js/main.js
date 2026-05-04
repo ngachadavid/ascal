@@ -90,3 +90,31 @@ function copyToClipboard(text, btn) {
     });
 }
 
+// Contact form — UI only, WPMailer wired up later
+const contactForm = document.getElementById('contact-form');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const btn = document.getElementById('contact-submit');
+        const success = document.getElementById('contact-success');
+        const error = document.getElementById('contact-error');
+
+        // Reset state
+        success.style.display = 'none';
+        error.style.display = 'none';
+        btn.textContent = 'Sending...';
+        btn.disabled = true;
+
+        // Placeholder — replace with wp_ajax call later
+        setTimeout(function () {
+            btn.textContent = 'Send Message';
+            btn.disabled = false;
+            // Simulate success for now
+            success.style.display = 'block';
+            contactForm.reset();
+        }, 1000);
+    });
+}
+
