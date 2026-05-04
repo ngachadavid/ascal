@@ -60,6 +60,30 @@ get_header();
         </div>
     </section>
 
+    <!-- Contact CTA -->
+    <section class="contact-cta">
+        <div class="contact-cta-container">
+
+            <!-- Left: Box -->
+            <div class="contact-cta-box">
+                <div class="contact-cta-inner">
+                    <h2 class="contact-cta-title"><?php echo _t('contactCTA.title'); ?></h2>
+                    <p class="contact-cta-desc"><?php echo _t('contactCTA.description'); ?></p>
+                    <a href="mailto:info@ascal.eu" class="contact-cta-btn">
+                        <?php echo _t('contactCTA.button'); ?>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right: Image (hidden on mobile) -->
+            <div class="contact-cta-image-wrap">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/impact4.jpg" alt="ASCA Community"
+                    class="contact-cta-image" />
+            </div>
+
+        </div>
+    </section>
+
 </main>
 
 <?php get_footer(); ?>

@@ -119,3 +119,111 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/* ===== CONTACT CTA ===== */
+.contact-cta {
+    padding: 80px 24px;
+    background: #fff;
+}
+
+.contact-cta-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contact-cta-box {
+    width: 100%;
+    background: linear-gradient(to bottom right, #60a5fa, #3b82f6, #06b6d4);
+    padding: 48px;
+    border: 2px solid #000;
+    text-align: left;
+}
+
+.contact-cta-inner {
+    width: 100%;
+}
+
+.contact-cta-title {
+    font-size: 1.875rem;        /* text-3xl */
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.contact-cta-desc {
+    color: #fff;
+    font-size: 1.125rem;        /* text-lg */
+    margin-bottom: 24px;
+    max-width: 48rem;
+}
+
+.contact-cta-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #fff;
+    color: #2563eb;
+    font-weight: 600;
+    border: 1px solid #000;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+.contact-cta-btn:hover {
+    background: #eff6ff;
+    color: #2563eb;
+}
+
+/* Right image — hidden on mobile */
+.contact-cta-image-wrap {
+    display: none;
+}
+
+.contact-cta-image {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    object-fit: cover;
+    display: block;
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .contact-cta {
+        padding: 80px 64px;
+    }
+
+    .contact-cta-box {
+        width: 80%;
+        padding: 64px;
+    }
+
+    .contact-cta-inner {
+        width: 70%;
+    }
+
+    .contact-cta-title {
+        font-size: 2.25rem;     /* md:text-4xl */
+    }
+
+    .contact-cta-desc {
+        font-size: 1.25rem;     /* md:text-xl */
+    }
+
+    .contact-cta-image-wrap {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 40px;
+        width: 320px;           /* md:w-80 */
+    }
+}
+
+/* lg breakpoint */
+@media (min-width: 1024px) {
+    .contact-cta-image-wrap {
+        width: 384px;           /* lg:w-96 */
+    }
+}

@@ -183,27 +183,6 @@
     "cta": "Get Involved"
   }
 ,
-  "testimonialSection": {
-    "header": "What People Are Saying",
-    "testimonials": [
-      {
-        "quote": "The compassion and commitment shown by the ASCA team made a real difference in our child’s educational journey.",
-        "name": "Teacher and Volunteer"
-      },
-      {
-        "quote": "ASCA Luxembourg’s expert support helps vulnerable students overcome obstacles and gain confidence in their abilities.",
-        "name": "Community Outreach Coordinator"
-      },
-      {
-        "quote": "As a volunteer, I witnessed firsthand the incredible impact ASCA has on vulnerable children. Their dedication to creating safe, nurturing environments is truly inspiring.",
-        "name": "Sophie Laurent"
-      },
-      {
-        "quote": "Their holistic approach ensures children not only stay in school but feel valued and supported every step of the way.",
-        "name": "Social Worker"
-      }
-    ]
-  },
   "donateHero": {
     "title": "Your Support Can Change a Child’s Future",
     "cta": "Read Their Stories"

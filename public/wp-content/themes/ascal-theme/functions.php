@@ -51,6 +51,15 @@ function ascal_enqueue_assets()
         );
     }
 
+    if (is_page('testimonials')) {
+    wp_enqueue_style(
+        'ascal-testimonials',
+        get_template_directory_uri() . '/assets/css/testimonials.css',
+        [],
+        '1.0'
+    );
+}
+
     wp_enqueue_style(
         'ascal-footer',
         get_template_directory_uri() . '/assets/css/footer.css',
