@@ -53,6 +53,54 @@
     </div>
 </section>
 
+<!-- Our Response -->
+<section class="response">
+    <div class="response-container">
+
+        <!-- Left: Title + Intro -->
+        <div class="response-left">
+            <h2 class="response-title"><?php echo _t('ourResponse.title'); ?></h2>
+            <p class="response-intro"><?php echo _t('ourResponse.intro'); ?></p>
+        </div>
+
+        <!-- Right: Accordion -->
+        <div class="response-accordion">
+            <?php
+            $items = [
+                [
+                    'title'   => _t('ourResponse.items.0.title'),
+                    'content' => _t('ourResponse.items.0.content'),
+                ],
+                [
+                    'title'   => _t('ourResponse.items.1.title'),
+                    'content' => _t('ourResponse.items.1.content'),
+                ],
+                [
+                    'title'   => _t('ourResponse.items.2.title'),
+                    'content' => _t('ourResponse.items.2.content'),
+                ],
+                [
+                    'title'   => _t('ourResponse.items.3.title'),
+                    'content' => _t('ourResponse.items.3.content'),
+                ],
+            ];
+
+            foreach ($items as $index => $item): ?>
+                <div class="response-item" id="response-<?php echo $index; ?>">
+                    <button class="response-question" onclick="toggleResponse(<?php echo $index; ?>)">
+                        <span><?php echo $item['title']; ?></span>
+                        <span class="response-icon" id="response-icon-<?php echo $index; ?>">+</span>
+                    </button>
+                    <div class="response-answer" id="response-answer-<?php echo $index; ?>">
+                        <p><?php echo $item['content']; ?></p>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+
+    </div>
+</section>
+
 </main>
 
 <?php get_footer(); ?>

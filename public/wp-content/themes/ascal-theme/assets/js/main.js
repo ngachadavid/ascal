@@ -58,3 +58,25 @@ document.addEventListener('DOMContentLoaded', function () {
     toggleFaq(0);
 });
 
+// Our Response accordion
+function toggleResponse(index) {
+    const answer = document.getElementById('response-answer-' + index);
+    const icon = document.getElementById('response-icon-' + index);
+    const isOpen = answer.classList.contains('open');
+
+    // Close all
+    document.querySelectorAll('.response-answer').forEach(el => el.classList.remove('open'));
+    document.querySelectorAll('.response-icon').forEach(el => el.textContent = '+');
+
+    // Open clicked if it was closed
+    if (!isOpen) {
+        answer.classList.add('open');
+        icon.textContent = '−';
+    }
+}
+
+// Open first by default
+document.addEventListener('DOMContentLoaded', function () {
+    toggleResponse(0);
+});
+
