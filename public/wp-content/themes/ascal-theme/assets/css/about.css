@@ -14,7 +14,8 @@
 .about-hero-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.5);  /* slightly darker than homepage — black/50 */
+    background: rgba(0, 0, 0, 0.5);
+    /* slightly darker than homepage — black/50 */
 }
 
 .about-hero-content {
@@ -27,7 +28,8 @@
 }
 
 .about-hero-title {
-    font-size: 1.25rem;         /* text-xl */
+    font-size: 1.25rem;
+    /* text-xl */
     font-weight: 700;
     color: #fff;
     line-height: 1.25;
@@ -42,7 +44,8 @@
     }
 
     .about-hero-title {
-        font-size: 2.25rem;     /* md:text-4xl */
+        font-size: 2.25rem;
+        /* md:text-4xl */
     }
 }
 
@@ -76,7 +79,8 @@
 }
 
 .history-title {
-    font-size: 1.25rem;         /* text-xl */
+    font-size: 1.25rem;
+    /* text-xl */
     font-weight: 700;
     color: #000;
     margin-bottom: 16px;
@@ -95,7 +99,8 @@
 
 .history-image {
     width: 100%;
-    height: 384px;              /* h-96 */
+    height: 384px;
+    /* h-96 */
     object-fit: cover;
     border: 1px solid #000;
     display: block;
@@ -117,7 +122,8 @@
     }
 
     .history-title {
-        font-size: 1.875rem;    /* md:text-3xl */
+        font-size: 1.875rem;
+        /* md:text-3xl */
     }
 
     .history-image-wrap {
@@ -140,7 +146,8 @@
 }
 
 .challenge-title {
-    font-size: 1.25rem;         /* text-xl */
+    font-size: 1.25rem;
+    /* text-xl */
     font-weight: 700;
     color: #000;
     margin-bottom: 16px;
@@ -149,7 +156,8 @@
 .challenge-intro {
     margin-top: 24px;
     color: rgba(0, 0, 0, 0.9);
-    font-size: 1.125rem;        /* text-lg */
+    font-size: 1.125rem;
+    /* text-lg */
 }
 
 .challenge-right {
@@ -168,12 +176,14 @@
     }
 
     .challenge-container {
-        grid-template-columns: 2fr 3fr;  /* md:grid-cols-5 — col-span-2 + col-span-3 */
+        grid-template-columns: 2fr 3fr;
+        /* md:grid-cols-5 — col-span-2 + col-span-3 */
         gap: 48px;
     }
 
     .challenge-title {
-        font-size: 1.875rem;    /* md:text-3xl */
+        font-size: 1.875rem;
+        /* md:text-3xl */
     }
 }
 
@@ -192,7 +202,8 @@
 }
 
 .response-title {
-    font-size: 1.25rem;         /* text-xl */
+    font-size: 1.25rem;
+    /* text-xl */
     font-weight: 700;
     color: #000;
     margin-bottom: 16px;
@@ -268,7 +279,8 @@
     }
 
     .response-title {
-        font-size: 1.875rem;    /* md:text-3xl */
+        font-size: 1.875rem;
+        /* md:text-3xl */
     }
 }
 
@@ -292,7 +304,8 @@
 }
 
 .donate-cta-title {
-    font-size: 1.875rem;        /* text-3xl */
+    font-size: 1.875rem;
+    /* text-3xl */
     font-weight: 700;
     color: #fff;
     margin-bottom: 24px;
@@ -300,27 +313,31 @@
 
 .donate-cta-desc {
     color: #fff;
-    font-size: 1.125rem;        /* text-lg */
+    font-size: 1.125rem;
+    /* text-lg */
     margin-bottom: 16px;
     max-width: 48rem;
 }
 
 .donate-cta-inquiry {
     color: rgba(255, 255, 255, 0.9);
-    font-size: 1.125rem;        /* text-lg */
+    font-size: 1.125rem;
+    /* text-lg */
     margin-bottom: 32px;
 }
 
 /* White variant of donate button for this section */
 .btn-donate--white {
     background-color: #fff !important;
-    color: #2563eb !important;  /* text-blue-600 */
+    color: #2563eb !important;
+    /* text-blue-600 */
     border-color: #000 !important;
 }
 
 .btn-donate--white:hover {
     background-color: #eff6ff !important;
-    color: #2563eb !important;  /* keep blue text on hover */
+    color: #2563eb !important;
+    /* keep blue text on hover */
 }
 
 /* md breakpoint */
@@ -334,12 +351,14 @@
     }
 
     .donate-cta-title {
-        font-size: 3rem;        /* md:text-5xl */
+        font-size: 3rem;
+        /* md:text-5xl */
     }
 
     .donate-cta-desc,
     .donate-cta-inquiry {
-        font-size: 1.25rem;     /* md:text-xl */
+        font-size: 1.25rem;
+        /* md:text-xl */
     }
 }
 
@@ -359,7 +378,8 @@
 }
 
 .values-title {
-    font-size: 1.5rem;          /* text-2xl */
+    font-size: 1.5rem;
+    /* text-2xl */
     font-weight: 700;
     color: #000;
     margin-bottom: 16px;
@@ -394,7 +414,8 @@
 }
 
 .values-card-title {
-    font-size: 1.25rem;         /* text-xl */
+    font-size: 1.25rem;
+    /* text-xl */
     font-weight: 600;
     color: rgba(0, 0, 0, 0.9);
     margin-bottom: 16px;
@@ -402,13 +423,25 @@
 
 .values-card-desc {
     color: rgba(0, 0, 0, 0.8);
-    font-size: 1rem;            /* text-base */
+    font-size: 1rem;
+    /* text-base */
 }
 
-.values-card--blue-200 { background-color: #bfdbfe; }
-.values-card--blue-300 { background-color: #93c5fd; }
-.values-card--blue-400 { background-color: #60a5fa; }
-.values-card--blue-500 { background-color: #3b82f6; }
+.values-card--blue-200 {
+    background-color: #bfdbfe;
+}
+
+.values-card--blue-300 {
+    background-color: #93c5fd;
+}
+
+.values-card--blue-400 {
+    background-color: #60a5fa;
+}
+
+.values-card--blue-500 {
+    background-color: #3b82f6;
+}
 
 /* md breakpoint */
 @media (min-width: 768px) {
@@ -419,7 +452,8 @@
     }
 
     .values-title {
-        font-size: 2.25rem;     /* md:text-4xl */
+        font-size: 2.25rem;
+        /* md:text-4xl */
     }
 
     .values-grid {
@@ -427,10 +461,12 @@
     }
 
     .values-card-title {
-        font-size: 1.5rem;      /* md:text-2xl */
+        font-size: 1.5rem;
+        /* md:text-2xl */
     }
 
     .values-card-desc {
-        font-size: 1.125rem;    /* md:text-lg */
+        font-size: 1.125rem;
+        /* md:text-lg */
     }
 }
