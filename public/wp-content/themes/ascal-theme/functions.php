@@ -50,7 +50,9 @@ function ascal_get_lang() {
         $lang = $_GET['lang'];
         // Save to cookie for future page loads (30 days)
         setcookie('ascal_lang', $lang, time() + (30 * DAY_IN_SECONDS), '/');
-        return $lang;
+        // Redirect to same URL without ?lang= param
+        wp_redirect(remove_query_arg('lang'));
+        exit;
     }
 
     // 2. Fall back to cookie
@@ -99,3 +101,4 @@ function _t($key, $fallback = '') {
 
     return is_string($value) ? $value : ($fallback ?: $key);
 }
+

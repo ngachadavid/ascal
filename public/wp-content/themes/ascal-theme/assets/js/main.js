@@ -20,3 +20,19 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const dropdown = document.getElementById("lang-dropdown");
+    const toggle = document.getElementById("lang-toggle");
+
+    if (!dropdown || !toggle) return;
+
+    toggle.addEventListener("click", function (e) {
+        e.stopPropagation();
+        dropdown.classList.toggle("open");
+    });
+
+    document.addEventListener("click", function () {
+        dropdown.classList.remove("open");
+    });
+});
+
