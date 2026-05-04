@@ -1,7 +1,8 @@
 <?php
 
 // Enqueue styles and scripts
-function ascal_enqueue_assets() {
+function ascal_enqueue_assets()
+{
     // Main stylesheet
     wp_enqueue_style(
         'ascal-style',
@@ -12,15 +13,15 @@ function ascal_enqueue_assets() {
 
     // Load translation JSON files
     $en = json_decode(
-        file_get_contents(get_template_directory() . '/languages/en.json'), 
+        file_get_contents(get_template_directory() . '/languages/en.json'),
         true
     );
     $fr = json_decode(
-        file_get_contents(get_template_directory() . '/languages/fr.json'), 
+        file_get_contents(get_template_directory() . '/languages/fr.json'),
         true
     );
     $de = json_decode(
-        file_get_contents(get_template_directory() . '/languages/de.json'), 
+        file_get_contents(get_template_directory() . '/languages/de.json'),
         true
     );
 
@@ -48,11 +49,29 @@ function ascal_enqueue_assets() {
         '1.0',
         true
     );
+
+    // Navbar CSS
+    wp_enqueue_style(
+        'ascal-navbar',
+        get_template_directory_uri() . '/assets/css/navbar.css',
+        [],
+        '1.0'
+    );
+
+    // Navbar JS
+    wp_enqueue_script(
+        'ascal-navbar',
+        get_template_directory_uri() . '/assets/js/navbar.js',
+        ['ascal-i18n'],
+        '1.0',
+        true
+    );
 }
 add_action('wp_enqueue_scripts', 'ascal_enqueue_assets');
 
 // Theme setup
-function ascal_theme_setup() {
+function ascal_theme_setup()
+{
     // Title tag support
     add_theme_support('title-tag');
 

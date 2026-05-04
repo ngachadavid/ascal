@@ -1,0 +1,286 @@
+/* ===== NAVBAR ===== */
+#site-header {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Desktop navbar */
+.navbar-desktop {
+  display: none;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 1024px) {
+  .navbar-desktop {
+    display: flex;
+  }
+  .navbar-mobile {
+    display: none;
+  }
+}
+
+/* Logo area */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  height: 64px;
+  width: auto;
+}
+
+.navbar-brand-text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
+  gap: -4px;
+}
+
+.navbar-name .asca {
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: #3399FF;
+}
+
+.navbar-name .luxembourg {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #3399FF;
+}
+
+.navbar-separator {
+  width: 1px;
+  height: 48px;
+  background: #3399FF;
+}
+
+.navbar-tagline {
+  font-size: 1.125rem;
+  color: #3399FF;
+  max-width: 280px;
+}
+
+/* Nav links */
+.navbar-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  color: #111;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover {
+  color: #3399FF;
+}
+
+/* Right side */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Donate button */
+.btn-donate {
+  background: #3399FF;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-donate:hover {
+  background: #1a7de0;
+  color: #fff;
+}
+
+/* Language switcher */
+.language-switcher {
+  display: flex;
+  gap: 6px;
+}
+
+.language-switcher button {
+  background: none;
+  border: 1px solid #3399FF;
+  color: #3399FF;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: all 0.2s;
+}
+
+.language-switcher button:hover,
+.language-switcher button.active {
+  background: #3399FF;
+  color: #fff;
+}
+
+/* ===== MOBILE ===== */
+.navbar-mobile {
+  display: block;
+}
+
+.navbar-mobile-top {
+  padding: 12px 16px;
+}
+
+.navbar-mobile-top a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.navbar-mobile-logo {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-mobile-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-mobile-name .asca {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #3399FF;
+  display: block;
+}
+
+.navbar-mobile-name .luxembourg {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #3399FF;
+  display: block;
+}
+
+.navbar-mobile-separator {
+  width: 1px;
+  height: 32px;
+  background: #3399FF;
+}
+
+.navbar-mobile-tagline {
+  font-size: 0.875rem;
+  color: #3399FF;
+}
+
+/* Blue bar */
+.navbar-mobile-bar {
+  background: #3399FF;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-mobile-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Language switcher mobile (white variant) */
+.navbar-mobile-bar .language-switcher button {
+  border-color: #fff;
+  color: #fff;
+}
+
+.navbar-mobile-bar .language-switcher button:hover,
+.navbar-mobile-bar .language-switcher button.active {
+  background: #fff;
+  color: #3399FF;
+}
+
+/* Hamburger */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #fff;
+  transition: all 0.3s;
+}
+
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(4px, 4px);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, -4px);
+}
+
+/* Mobile dropdown */
+.navbar-mobile-menu {
+  display: none;
+  background: #fff;
+  border-top: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.navbar-mobile-menu.open {
+  display: block;
+}
+
+.navbar-mobile-menu a {
+  display: block;
+  padding: 12px 24px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f4f6;
+  transition: color 0.2s;
+}
+
+.navbar-mobile-menu a:hover {
+  color: #3399FF;
+}
