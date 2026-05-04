@@ -318,3 +318,74 @@
         font-size: 1.875rem;    /* md:text-3xl */
     }
 }
+
+/* ===== DONATE CTA ===== */
+.donate-cta {
+    padding: 80px 24px;
+    background: #fff;
+}
+
+.donate-cta-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.donate-cta-box {
+    background: linear-gradient(to bottom right, #60a5fa, #3b82f6, #06b6d4);
+    padding: 48px;
+    border: 2px solid #000;
+    text-align: left;
+}
+
+.donate-cta-title {
+    font-size: 1.875rem;        /* text-3xl */
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.donate-cta-desc {
+    color: #fff;
+    font-size: 1.125rem;        /* text-lg */
+    margin-bottom: 16px;
+    max-width: 48rem;
+}
+
+.donate-cta-inquiry {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.125rem;        /* text-lg */
+    margin-bottom: 32px;
+}
+
+/* White variant of donate button for this section */
+.btn-donate--white {
+    background-color: #fff !important;
+    color: #2563eb !important;  /* text-blue-600 */
+    border-color: #000 !important;
+}
+
+.btn-donate--white:hover {
+    background-color: #eff6ff !important;
+    color: #2563eb !important;  /* keep blue text on hover */
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .donate-cta {
+        padding: 80px 64px;
+    }
+
+    .donate-cta-box {
+        padding: 64px;
+    }
+
+    .donate-cta-title {
+        font-size: 3rem;        /* md:text-5xl */
+    }
+
+    .donate-cta-desc,
+    .donate-cta-inquiry {
+        font-size: 1.25rem;     /* md:text-xl */
+    }
+}

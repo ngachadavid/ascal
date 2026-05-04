@@ -32,6 +32,13 @@ if (is_front_page()) {
         '1.0',
         true
     );
+
+    wp_enqueue_style(
+    'ascal-footer',
+    get_template_directory_uri() . '/assets/css/footer.css',
+    [],
+    '1.0'
+);
 }
 add_action('wp_enqueue_scripts', 'ascal_enqueue_assets');
 

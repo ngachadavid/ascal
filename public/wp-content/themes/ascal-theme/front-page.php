@@ -126,6 +126,19 @@
             </div>
         </div>
     </section>
+    <!-- Donate CTA -->
+    <section class="donate-cta">
+        <div class="donate-cta-container">
+            <div class="donate-cta-box">
+                <h2 class="donate-cta-title"><?php echo _t('donateCTA.title'); ?></h2>
+                <p class="donate-cta-desc"><?php echo _t('donateCTA.description'); ?></p>
+                <p class="donate-cta-inquiry"><?php echo _t('donateCTA.inquiry'); ?></p>
+                <a href="<?php echo home_url('/donate'); ?>" class="btn-donate btn-donate--white">
+                    <?php echo _t('donateCTA.button'); ?>
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php get_footer(); ?>
