@@ -86,6 +86,46 @@
 
         </div>
     </section>
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="faq-container">
+            <h2 class="faq-title"><?php echo _t('faq.title'); ?></h2>
+
+            <div class="faq-list">
+                <?php
+                $faqs = [
+                    [
+                        'question' => _t('faq.questions.0.question'),
+                        'answer' => _t('faq.questions.0.answer'),
+                    ],
+                    [
+                        'question' => _t('faq.questions.1.question'),
+                        'answer' => _t('faq.questions.1.answer'),
+                    ],
+                    [
+                        'question' => _t('faq.questions.2.question'),
+                        'answer' => _t('faq.questions.2.answer'),
+                    ],
+                    [
+                        'question' => _t('faq.questions.3.question'),
+                        'answer' => _t('faq.questions.3.answer'),
+                    ],
+                ];
+
+                foreach ($faqs as $index => $faq): ?>
+                    <div class="faq-item" id="faq-<?php echo $index; ?>">
+                        <button class="faq-question" onclick="toggleFaq(<?php echo $index; ?>)">
+                            <span><?php echo $faq['question']; ?></span>
+                            <span class="faq-icon" id="faq-icon-<?php echo $index; ?>">+</span>
+                        </button>
+                        <div class="faq-answer" id="faq-answer-<?php echo $index; ?>">
+                            <p><?php echo $faq['answer']; ?></p>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php get_footer(); ?>

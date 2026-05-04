@@ -36,3 +36,25 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+// FAQ toggle
+function toggleFaq(index) {
+    const answer = document.getElementById('faq-answer-' + index);
+    const icon = document.getElementById('faq-icon-' + index);
+    const isOpen = answer.classList.contains('open');
+
+    // Close all
+    document.querySelectorAll('.faq-answer').forEach(el => el.classList.remove('open'));
+    document.querySelectorAll('.faq-icon').forEach(el => el.textContent = '+');
+
+    // Open clicked if it was closed
+    if (!isOpen) {
+        answer.classList.add('open');
+        icon.textContent = '-';
+    }
+}
+
+// Open first by default
+document.addEventListener('DOMContentLoaded', function () {
+    toggleFaq(0);
+});
+
