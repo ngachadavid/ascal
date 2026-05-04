@@ -5,3 +5,16 @@ Author: David Ngacha
 Description: Custom theme for Ascal project
 Version: 1.0
 */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #111827;
+}
