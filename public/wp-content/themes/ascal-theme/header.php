@@ -25,6 +25,7 @@
             }
         }
     </style>
+    <title><?php echo wp_get_document_title(); ?></title>
     <?php wp_head(); ?>
 </head>
 
