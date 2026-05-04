@@ -15,6 +15,15 @@ function ascal_enqueue_assets()
         [],
         '1.0'
     );
+    
+if (is_front_page()) {
+    wp_enqueue_style(
+        'ascal-homepage',
+        get_template_directory_uri() . '/assets/css/homepage.css',
+        [],
+        '1.0'
+    );
+}
 
     wp_enqueue_script(
         'ascal-main',
