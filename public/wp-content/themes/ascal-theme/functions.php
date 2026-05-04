@@ -10,11 +10,41 @@ function ascal_enqueue_assets() {
         '1.0'
     );
 
-    // Main JS file
+    // Load translation JSON files
+    $en = json_decode(
+        file_get_contents(get_template_directory() . '/languages/en.json'), 
+        true
+    );
+    $fr = json_decode(
+        file_get_contents(get_template_directory() . '/languages/fr.json'), 
+        true
+    );
+    $de = json_decode(
+        file_get_contents(get_template_directory() . '/languages/de.json'), 
+        true
+    );
+
+    // i18n script
+    wp_enqueue_script(
+        'ascal-i18n',
+        get_template_directory_uri() . '/assets/js/i18n.js',
+        [],
+        '1.0',
+        true // load in footer
+    );
+
+    // Pass all translations to JS as ascalLang object
+    wp_localize_script('ascal-i18n', 'ascalLang', [
+        'en' => $en,
+        'fr' => $fr,
+        'de' => $de,
+    ]);
+
+    // Main JS — loads after i18n
     wp_enqueue_script(
         'ascal-main',
         get_template_directory_uri() . '/assets/js/main.js',
-        [],
+        ['ascal-i18n'], // depends on i18n
         '1.0',
         true
     );

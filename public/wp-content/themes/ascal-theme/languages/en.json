@@ -1,0 +1,259 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "donate": "Donate",
+    "legal": "Legal Notice",
+    "tagline": "Save the Child for a Better World"
+  },
+  "hero": {
+    "title": "Supporting Every Child's Journey to Success",
+    "subtitle": "ASCA Luxembourg champions education and care for children facing hardship, helping them overcome challenges like poverty, isolation, and loss to build a brighter future.",
+    "cta": "Learn About Us"
+  },
+  "mission": {
+    "line1": "ASCA",
+    "line1Bold": "(Appui Scolaire Carlo Acutis Luxembourg)",
+    "line1Rest": " was founded under the inspiration of the young Saint Carlo Acutis, carrying forward his legacy of compassion and service to those in need.",
+    "line2": "We are a non-profit organization founded on the belief that everyone deserves equal access to education, healthcare, and support."
+  },
+  "impact": {
+    "title": "Discover How ASCA Luxembourg Supports Vulnerable Children for a Better World",
+    "education": {
+      "title": "Education & Retention",
+      "description": "We support the development and education of children from socially and economically disadvantaged families. Through mentorship, guidance, and access to learning resources, we help children stay motivated, attend school regularly, and succeed academically, building a foundation for a brighter future."
+    },
+    "dropout": {
+      "title": "School Dropout Prevention",
+      "description": "ASCA works to combat school dropout, particularly among orphaned children and those coping with bereavement. By combining academic support with emotional guidance, personalized learning plans, and close follow-ups, we ensure children remain engaged in school and continue their educational journey."
+    },
+    "inclusion": {
+      "title": "Social Inclusion & Poverty Alleviation",
+      "description": "We fight isolation and extreme poverty by creating safe, supportive environments for children and families in need. Through community programs, social activities, and counseling, we foster inclusion, resilience, and a sense of belonging, empowering children to overcome challenges and participate fully in society."
+    },
+    "nutrition": {
+      "title": "Nutrition & Well-Being",
+      "description": "ASCA addresses hunger and malnutrition by providing essential resources and nourishment. Our programs ensure children have access to balanced meals, health education, and support for their physical and emotional well-being, enabling them to grow, learn, and thrive in a safe and healthy environment."
+    }
+  },
+  "testimonial": {
+    "title": "Hear From One of the Lives We Support",
+    "subtitle": "Manager, Sainte Marie Mother of God Orphanage – Mugera",
+    "paragraphs": {
+      "p1": "The Sainte Marie Mother of God Orphanage was founded in 1946 by Miss Rosa Nyanzira. Its mission was to rescue completely destitute children — orphans, abandoned children, and those whose parents were disabled or suffering from mental illness. She welcomed children from all backgrounds without discrimination.",
+      "p2": "Later, Mama Nestor Nzisabira joined her. They worked together for many years. Mama Nestor later founded the Congregation of the Sisters of Sainte Bernadette, who helped care for the children alongside Miss Rosa.",
+      "p3": "Miss Rosa faced many hardships, especially a lack of food. She would take the children to church to pray, and then to a nearby mountain called \"Lourdes\" in Mugera to ask Jesus and Mary for food. Provision would always follow.",
+      "p4": "The parish once provided land to cultivate and support the orphanage. Today, due to economic hardship, that support has greatly reduced. We now receive only minimal assistance from local movements.",
+      "p5": "The house is divided into a dormitory and living space for girls, and a separate dormitory for boys. We live through divine mercy and the generosity of benefactors chosen by the Lord — like ASCA.",
+      "p6": "From the beginning, our way of surviving has been to send children to school so they may have a better future. We also teach them to cultivate, to care for animals, and to pray for those who help them.",
+      "p7": "We raise small livestock — chickens, rabbits, and goats — to provide occasional meat and manure for our crops. We had hoped to acquire larger livestock, but the cost is too high. Even a young bull costs more than 1 million Burundian francs.",
+      "p8": "I conclude by thanking you from the bottom of my heart for the effort you make and the love you show us continually. May God bless and strengthen you."
+    },
+    "signature": "— Mrs. Béatrice Ntunzwenayo"
+  }
+  ,
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "How does ASCA Luxembourg support orphaned students?",
+        "answer": "We provide educational assistance, mentorship, and emotional support to help orphaned and vulnerable children remain engaged in school. Our goal is to create stability that allows them to focus, learn, and build confidence in their future."
+      },
+      {
+        "question": "What initiatives address school dropout among bereaved children?",
+        "answer": "Our programs combine academic support with counseling and personalized guidance. By addressing both emotional and educational needs, we help children stay motivated and reduce the risk of leaving school prematurely."
+      },
+      {
+        "question": "How does ASCA tackle hunger and malnutrition?",
+        "answer": "We work alongside community partners to ensure children have access to nutritious meals and basic health awareness. Proper nourishment is essential for learning, development, and overall well-being."
+      },
+      {
+        "question": "Who can benefit from ASCA Luxembourg's services?",
+        "answer": "Our programs are designed for children facing social and economic hardship, particularly those at risk of school dropout. We prioritize children who require consistent support to overcome educational and emotional barriers."
+      }
+    ]
+  }
+  ,
+  "donateCTA": {
+    "title": "Donate to ASCA",
+    "description": "Support vulnerable children through education, nourishment, and emotional care. Together, we can create communities where every child thrives.",
+    "inquiry": "For inquiries, please contact our team.",
+    "button": "Donate to ASCA"
+  }
+  ,
+  "contact": {
+    "title": "Empowering Children Facing Loss and Hardship",
+    "subtitle": "Every message matters. Reach out to us and take the first step in making a real impact in the lives of children who need it most.",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "optional": "(optional)",
+      "submit": "Send Message"
+    }
+  },
+  "aboutHero": {
+    "title": "We empower children facing hardship with education, care, and opportunities to build a brighter future.",
+    "button": "Support Us"
+  },
+  "theChallenge": {
+    "title": "The Challenge",
+    "intro": "Many children face barriers that go beyond the classroom — challenges that quietly shape their future long before they have the chance to choose it.",
+    "paragraphs": {
+      "p1": "For some children, school becomes difficult not because they lack potential, but because poverty creates constant uncertainty. When families struggle to afford meals, uniforms, or basic supplies, education can slowly slip out of reach.",
+      "p2": "Malnutrition affects more than physical health — it impacts concentration, confidence, and long-term development. A hungry child cannot fully focus on learning or participate with the same energy as their peers.",
+      "p3": "Isolation and emotional distress often follow loss or hardship. Children who experience bereavement, displacement, or social exclusion may withdraw, carrying emotional burdens that shape how they see themselves and the world.",
+      "p4": "These challenges are interconnected. School dropout, poverty, hunger, and emotional strain rarely exist alone. To create lasting change, support must address the whole child — academically, socially, and emotionally."
+    }
+  },
+  "ourResponse": {
+    "title": "Our Response",
+    "intro": "Lasting change begins with thoughtful support. We focus on practical, consistent interventions that help children regain stability, confidence, and opportunity.",
+    "items": [
+      {
+        "title": "Education & Retention",
+        "content": "We work to keep children engaged in school through mentorship, learning resources, and continuous encouragement. Education becomes a pathway forward, not a privilege at risk."
+      },
+      {
+        "title": "Nutrition & Basic Support",
+        "content": "By addressing hunger and essential needs, we create the stability children require to focus, grow, and participate fully in school and community life."
+      },
+      {
+        "title": "Emotional Care & Inclusion",
+        "content": "Through safe spaces, guidance, and community connection, we help children rebuild confidence and feel seen, supported, and valued."
+      },
+      {
+        "title": "Skills & Future Opportunities",
+        "content": "We prepare children for long-term success by nurturing practical skills, resilience, and ambition — empowering them to shape their own futures with confidence."
+      }
+    ]
+  },
+"history": {
+  "title": "Our History",
+  "text": "Created on July 30, 2023, by a group of Benedictine Secular Oblates belonging to the Third Benedictine Order of the Abbey of Clervaux, the Association believes that helping an orphaned, poor, or abandoned child is like saving humanity for a better world.\n\nPoverty is unjust. ASCA is committed to not leaving behind children living in extreme hardship, providing them with the support they need to pursue a fulfilling education and have enough to eat.\n\nSaint Carlo Acutis, the patron of our association, serves as a model for generosity and compassion toward the most vulnerable, the poorest of the poor."
+},
+"ourValues": {
+  "title": "The Values That Guide Our Work",
+  "intro": "Our mission is shaped by principles that ensure every action is thoughtful, sustainable, and centered around the well-being of children.",
+  "cards": [
+    {
+      "title": "Dignity First",
+      "description": "Every child deserves to be treated with respect and care. We approach our work with empathy, ensuring that support empowers rather than labels or defines."
+    },
+    {
+      "title": "Consistency Over Charity",
+      "description": "Real change doesn’t come from one-time gestures. We focus on steady, reliable support that builds trust and creates lasting stability in children’s lives."
+    },
+    {
+      "title": "Community-Led Support",
+      "description": "We believe solutions are strongest when rooted in community. By working closely with families, educators, and local partners, we ensure our impact is meaningful and sustainable."
+    },
+    {
+      "title": "Long-Term Impact",
+      "description": "Our goal isn’t short-term relief, but long-term transformation. We invest in education, resilience, and opportunity so children can shape their own futures with confidence."
+    }
+  ]
+},
+  "projectsHero": {
+    "title": "Explore Our Projects and See How ASCA Luxembourg Creates Lasting Impact",
+    "cta": "See Stories of Impact"
+  },
+  "projects": [
+  {
+    "title": "Orphelinat de Mugera – Burundi",
+    "description": "Mugera is a small village in the Gitega province of central Burundi. The orphanage, home to around 40 children, was once supported by the parish and volunteers. Post-COVID and due to extreme poverty, the project struggles. Donations from ASCA provide meals and school supplies, making a real difference in the children's lives.",
+    "images": ["/projects/kr.webp", "/projects/kerrr.webp"]
+  },
+  {
+    "title": "Projet Keur Moussa – Sénégal",
+    "description": "At Keur-Moussa in Senegal, children face challenges due to parents’ limited resources. This project, managed by the monks of the Abbey of Keur-Moussa, provides essential support including school materials to help children thrive academically and personally.",
+    "images": ["/projects/kerr.webp", "/projects/ker.webp", "/projects/ke.webp", "/projects/k.webp"]
+  }
+],
+  "contactCTA": {
+    "title": "Learn how to get involved with our community-based work",
+    "description": "We are always eager to connect with passionate individuals and organizations. Reach out to learn how you can contribute to ASCA Luxembourg programs and help children thrive.",
+    "button": "Get in Touch"
+  },
+  "testimonialHero": {
+    "title": "Hear from people whose lives have been transformed by our programs and see the real impact your support can make.",
+    "cta": "Get Involved"
+  }
+,
+  "testimonialSection": {
+    "header": "What People Are Saying",
+    "testimonials": [
+      {
+        "quote": "The compassion and commitment shown by the ASCA team made a real difference in our child’s educational journey.",
+        "name": "Teacher and Volunteer"
+      },
+      {
+        "quote": "ASCA Luxembourg’s expert support helps vulnerable students overcome obstacles and gain confidence in their abilities.",
+        "name": "Community Outreach Coordinator"
+      },
+      {
+        "quote": "As a volunteer, I witnessed firsthand the incredible impact ASCA has on vulnerable children. Their dedication to creating safe, nurturing environments is truly inspiring.",
+        "name": "Sophie Laurent"
+      },
+      {
+        "quote": "Their holistic approach ensures children not only stay in school but feel valued and supported every step of the way.",
+        "name": "Social Worker"
+      }
+    ]
+  },
+  "donateHero": {
+    "title": "Your Support Can Change a Child’s Future",
+    "cta": "Read Their Stories"
+  },
+  "donateMissionSection": {
+    "paragraphs": {
+      "p1": "Your generosity helps us stand beside children facing poverty, school dropout, hunger, and isolation. Every contribution strengthens our ability to provide education support, nourishment, and emotional care to those who need it most.",
+      "p2": "At ASCA Luxembourg, we believe in the power of collective action. Every donor becomes part of a shared mission — building a fairer world where every child has the opportunity to learn, grow, and thrive with dignity."
+    }
+  },
+  "footer": {
+    "organization": "ASCA Luxembourg",
+    "organizationDetails": "Appui Scolaire Carlo Acutis\nNon-Profit Association - ASBL\nRegistration Number: F14177",
+    "quickLinks": "Quick Links",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "projects": "Projects",
+      "testimonials": "Testimonials",
+      "donate": "Donate",
+      "legal": "Legal Notice"
+    },
+    "addressTitle": "Address",
+    "addressDetails": "21, Bënzelter Wee\nL-9742 Boxhorn\nGrand Duchy of Luxembourg",
+    "contactTitle": "Contact",
+    "bottomText": "© 2026 ASCA Luxembourg. All rights reserved."
+  },
+  "bankDetails": {
+    "title": "Bank Transfer Details",
+    "subtitle": "Support ASCA Luxembourg through a direct bank transfer",
+    "accountHolder": "Account Holder",
+    "iban": "International Bank Account Number (IBAN)",
+    "bic": "Bank Identifier Code (BIC)",
+    "bankName": "Bank",
+    "address": "Organization Address",
+    "copy": "Copy",
+    "note": "Please include your name and email in the transfer reference so we can send you a receipt and confirmation."
+  },
+  "legal": {
+  "title": "Legal Notice",
+  "subtitle": "Find the official legal information and ownership details for this website.",
+  "lastUpdated": "This imprint was last updated on January 5, 2026.",
+  "ownerTitle": "The owner of this website is:",
+  "ownerDetails": "Asca Luxembourg\n21, Bënzelter Wee\nL-9742 Boxhorn, Grand Duchy of Luxembourg",
+  "ownerEmail": "info@ascal.eu",
+  "ownerPhone": "+49 (0)178 / 486 7057",
+  "representativesTitle": "Legal Representatives:",
+  "representativesDetails": "Gaston Manirakiza",
+  "generalTitle": "General",
+  "generalText": "We are a Non-Profit Association registered under registration number: F14177",
+  "disputeText": "We are not willing or obliged to participate in dispute resolution procedures before a consumer arbitration board."
+}
+}

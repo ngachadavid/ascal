@@ -1,0 +1,242 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "projects": "Projekte",
+    "testimonials": "Erfahrungsberichte",
+    "contact": "Kontakt",
+    "donate": "Spenden",
+    "legal": "Impressum",
+    "tagline": "Rettet die Kinder für eine bessere Welt"
+  },
+  "hero": {
+    "title": "Jedes Kind auf seinem Weg zum Erfolg unterstützen",
+    "subtitle": "ASCA Luxemburg setzt sich für Bildung und Betreuung von Kindern in Not ein und hilft ihnen, Herausforderungen wie Armut, Isolation und Verlust zu überwinden, um eine bessere Zukunft aufzubauen.",
+    "cta": "Mehr über uns"
+  },
+  "mission": {
+    "line1": "ASCA",
+    "line1Bold": "(Appui Scolaire Carlo Acutis Luxembourg)",
+    "line1Rest": " wurde unter der Inspiration des jungen Heiligen Carlo Acutis gegründet und führt sein Erbe des Mitgefühls und Dienstes an Bedürftigen fort.",
+    "line2": "Wir sind eine gemeinnützige Organisation, die auf der Überzeugung gegründet wurde, dass jeder gleichen Zugang zu Bildung, Gesundheitsversorgung und Unterstützung verdient."
+  },
+  "impact": {
+    "title": "Entdecken Sie, wie ASCA Luxemburg gefährdete Kinder für eine bessere Welt unterstützt",
+    "education": {
+      "title": "Bildung und Verbleib",
+      "description": "Wir unterstützen die Entwicklung und Bildung von Kindern aus sozial und wirtschaftlich benachteiligten Familien. Durch Mentoring, Anleitung und Zugang zu Lernressourcen helfen wir Kindern, motiviert zu bleiben, regelmäßig zur Schule zu gehen und akademisch erfolgreich zu sein, und legen damit den Grundstein für eine bessere Zukunft."
+    },
+    "dropout": {
+      "title": "Prävention von Schulabbrüchen",
+      "description": "ASCA arbeitet daran, Schulabbrüche zu bekämpfen, insbesondere bei Waisenkindern und solchen, die mit Trauer umgehen. Durch die Kombination von akademischer Unterstützung, personalisierten Lernplänen und engmaschiger Betreuung stellen wir sicher, dass Kinder in der Schule engagiert bleiben und ihren Bildungsweg fortsetzen."
+    },
+    "inclusion": {
+      "title": "Soziale Inklusion und Armutsbekämpfung",
+      "description": "Wir bekämpfen Isolation und extreme Armut, indem wir sichere, unterstützende Umgebungen für Kinder und Familien in Not schaffen. Durch Gemeindeprogramme, soziale Aktivitäten und Beratung fördern wir Inklusion, Resilienz und ein Gefühl der Zugehörigkeit, das Kindern ermöglicht, Herausforderungen zu überwinden und voll an der Gesellschaft teilzuhaben."
+    },
+    "nutrition": {
+      "title": "Ernährung und Wohlbefinden",
+      "description": "ASCA bekämpft Hunger und Mangelernährung durch die Bereitstellung wesentlicher Ressourcen und Nahrung. Unsere Programme stellen sicher, dass Kinder Zugang zu ausgewogenen Mahlzeiten, Gesundheitserziehung und Unterstützung für ihr körperliches und emotionales Wohlbefinden haben, damit sie in einer sicheren Umgebung wachsen, lernen und gedeihen können."
+    }
+  },
+  "testimonial": {
+    "title": "Hören Sie von einem der Leben, die wir unterstützen",
+    "subtitle": "Leiterin, Waisenhaus Sainte Marie Mutter Gottes – Mugera",
+    "paragraphs": {
+      "p1": "Das Waisenhaus Sainte Marie Mutter Gottes wurde 1946 von Fräulein Rosa Nyanzira gegründet. Seine Mission war es, völlig mittellose Kinder zu retten — Waisen, verlassene Kinder und solche, deren Eltern behindert waren oder an psychischen Erkrankungen litten. Sie nahm Kinder aus allen Verhältnissen ohne Diskriminierung auf.",
+      "p2": "Später schloss sich Mama Nestor Nzisabira ihr an. Sie arbeiteten viele Jahre zusammen. Mama Nestor gründete später die Kongregation der Schwestern von Sainte Bernadette, die neben Fräulein Rosa bei der Betreuung der Kinder halfen.",
+      "p3": "Fräulein Rosa stand vor vielen Schwierigkeiten, insbesondere Nahrungsmangel. Sie brachte die Kinder zum Beten in die Kirche und dann zu einem nahe gelegenen Berg namens Lourdes in Mugera, um Jesus und Maria um Nahrung zu bitten. Die Versorgung folgte immer.",
+      "p4": "Die Pfarrei stellte einst Land zur Verfügung, um das Waisenhaus zu unterstützen. Heute hat sich diese Unterstützung aufgrund wirtschaftlicher Schwierigkeiten stark verringert. Wir erhalten jetzt nur noch minimale Hilfe von lokalen Bewegungen.",
+      "p5": "Das Haus ist in einen Schlafsaal und Wohnraum für Mädchen und einen separaten Schlafsaal für Jungen unterteilt. Wir leben durch göttliche Barmherzigkeit und die Großzügigkeit von Wohltätern, die vom Herrn ausgewählt wurden — wie ASCA.",
+      "p6": "Von Anfang an war unser Überlebensweg, Kinder zur Schule zu schicken, damit sie eine bessere Zukunft haben. Wir bringen ihnen auch bei, zu kultivieren, sich um Tiere zu kümmern und für diejenigen zu beten, die ihnen helfen.",
+      "p7": "Wir züchten Kleinvieh — Hühner, Kaninchen und Ziegen — um gelegentlich Fleisch und Dünger für unsere Pflanzen bereitzustellen. Wir hatten gehofft, größeres Vieh zu erwerben, aber die Kosten sind zu hoch. Selbst ein junger Bulle kostet mehr als 1 Million Burundi-Francs.",
+      "p8": "Ich schließe mit einem herzlichen Dank für die Anstrengungen, die Sie unternehmen, und die Liebe, die Sie uns kontinuierlich zeigen. Möge Gott Sie segnen und stärken."
+    },
+    "signature": "— Frau Béatrice Ntunzwenayo"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "questions": [
+      {
+        "question": "Wie unterstützt ASCA Luxemburg verwaiste Schüler?",
+        "answer": "Wir bieten Bildungsunterstützung, Mentoring und emotionale Unterstützung, um verwaisten und gefährdeten Kindern zu helfen, in der Schule engagiert zu bleiben. Unser Ziel ist es, Stabilität zu schaffen, die es ihnen ermöglicht, sich zu konzentrieren, zu lernen und Vertrauen in ihre Zukunft aufzubauen."
+      },
+      {
+        "question": "Welche Initiativen befassen sich mit Schulabbrüchen bei trauernden Kindern?",
+        "answer": "Unsere Programme kombinieren akademische Unterstützung mit Beratung und personalisierter Anleitung. Indem wir sowohl emotionale als auch Bildungsbedürfnisse ansprechen, helfen wir Kindern, motiviert zu bleiben und das Risiko eines vorzeitigen Schulabbruchs zu verringern."
+      },
+      {
+        "question": "Wie bekämpft ASCA Hunger und Mangelernährung?",
+        "answer": "Wir arbeiten mit Gemeinschaftspartnern zusammen, um sicherzustellen, dass Kinder Zugang zu nahrhaften Mahlzeiten und grundlegendem Gesundheitsbewusstsein haben. Eine angemessene Ernährung ist für das Lernen, die Entwicklung und das allgemeine Wohlbefinden unerlässlich."
+      },
+      {
+        "question": "Wer kann von den Dienstleistungen von ASCA Luxemburg profitieren?",
+        "answer": "Unsere Programme sind für Kinder konzipiert, die mit sozialen und wirtschaftlichen Schwierigkeiten konfrontiert sind, insbesondere solche, die von Schulabbruch bedroht sind. Wir priorisieren Kinder, die konsequente Unterstützung benötigen, um Bildungs- und emotionale Barrieren zu überwinden."
+      }
+    ]
+  },
+  "donateCTA": {
+    "title": "An ASCA spenden",
+    "description": "Unterstützen Sie gefährdete Kinder durch Bildung, Ernährung und emotionale Betreuung. Gemeinsam können wir Gemeinschaften schaffen, in denen jedes Kind gedeiht.",
+    "inquiry": "Für Anfragen kontaktieren Sie bitte unser Team.",
+    "button": "An ASCA spenden"
+  },
+  "contact": {
+    "title": "Kinder stärken, die mit Verlust und Not konfrontiert sind",
+    "subtitle": "Jede Nachricht zählt. Melden Sie sich bei uns und machen Sie den ersten Schritt, um das Leben der Kinder, die es am meisten brauchen, wirklich zu verändern.",
+    "form": {
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail",
+      "subject": "Betreff",
+      "message": "Ihre Nachricht",
+      "optional": "(optional)",
+      "submit": "Nachricht senden"
+    }
+  },
+  "aboutHero": {
+    "title": "Wir befähigen Kinder, die mit Schwierigkeiten konfrontiert sind, durch Bildung, Betreuung und Chancen für eine bessere Zukunft.",
+    "button": "Unterstützen Sie uns"
+  },
+  "theChallenge": {
+    "title": "Die Herausforderung",
+    "intro": "Viele Kinder stehen vor Barrieren, die über das Klassenzimmer hinausgehen — Herausforderungen, die ihre Zukunft leise formen, lange bevor sie die Chance haben, sie zu wählen.",
+    "paragraphs": {
+      "p1": "Für einige Kinder wird die Schule schwierig, nicht weil es ihnen an Potenzial fehlt, sondern weil Armut ständige Unsicherheit schafft. Wenn Familien Schwierigkeiten haben, sich Mahlzeiten, Uniformen oder grundlegende Materialien zu leisten, kann Bildung langsam außer Reichweite geraten.",
+      "p2": "Mangelernährung betrifft mehr als die körperliche Gesundheit — sie beeinträchtigt Konzentration, Selbstvertrauen und langfristige Entwicklung. Ein hungriges Kind kann sich nicht vollständig auf das Lernen konzentrieren oder mit der gleichen Energie wie seine Altersgenossen teilnehmen.",
+      "p3": "Isolation und emotionale Belastung folgen oft auf Verlust oder Schwierigkeiten. Kinder, die Trauer, Vertreibung oder soziale Ausgrenzung erleben, können sich zurückziehen und emotionale Lasten tragen, die prägen, wie sie sich selbst und die Welt sehen.",
+      "p4": "Diese Herausforderungen sind miteinander verbunden. Schulabbruch, Armut, Hunger und emotionale Belastung existieren selten allein. Um dauerhaften Wandel zu schaffen, muss die Unterstützung das ganze Kind ansprechen — akademisch, sozial und emotional."
+    }
+  },
+  "ourResponse": {
+    "title": "Unsere Antwort",
+    "intro": "Dauerhafter Wandel beginnt mit durchdachter Unterstützung. Wir konzentrieren uns auf praktische, konsistente Interventionen, die Kindern helfen, Stabilität, Selbstvertrauen und Chancen zurückzugewinnen.",
+    "items": [
+      {
+        "title": "Bildung und Verbleib",
+        "content": "Wir arbeiten daran, Kinder durch Mentoring, Lernressourcen und kontinuierliche Ermutigung in der Schule zu halten. Bildung wird zu einem Weg nach vorne, nicht zu einem gefährdeten Privileg."
+      },
+      {
+        "title": "Ernährung und Grundversorgung",
+        "content": "Indem wir Hunger und grundlegende Bedürfnisse angehen, schaffen wir die Stabilität, die Kinder benötigen, um sich zu konzentrieren, zu wachsen und vollständig am Schul- und Gemeinschaftsleben teilzunehmen."
+      },
+      {
+        "title": "Emotionale Betreuung und Inklusion",
+        "content": "Durch sichere Räume, Anleitung und Gemeinschaftsverbindungen helfen wir Kindern, Selbstvertrauen aufzubauen und sich gesehen, unterstützt und wertgeschätzt zu fühlen."
+      },
+      {
+        "title": "Fähigkeiten und Zukunftschancen",
+        "content": "Wir bereiten Kinder auf langfristigen Erfolg vor, indem wir praktische Fähigkeiten, Resilienz und Ehrgeiz fördern — und sie befähigen, ihre eigene Zukunft mit Selbstvertrauen zu gestalten."
+      }
+    ]
+  },
+  "history": {
+    "title": "Unsere Geschichte",
+    "text": "Gegründet am 30. Juli 2023 von einer Gruppe weltlicher Benediktineroblaten des Dritten Benediktinerordens der Abtei Clervaux, glaubt der Verein, dass es wie die Rettung der Menschheit für eine bessere Welt ist, einem verwaisten, armen oder verlassenen Kind zu helfen.\n\nArmut ist ungerecht. ASCA verpflichtet sich, keine Kinder, die in extremer Not leben, zurückzulassen und ihnen die Unterstützung zu geben, die sie benötigen, um eine erfüllende Bildung zu verfolgen und genug zu essen zu haben.\n\nDer Heilige Carlo Acutis, der Schutzpatron unseres Vereins, dient als Vorbild für Großzügigkeit und Mitgefühl gegenüber den Verwundbarsten, den Ärmsten der Armen."
+  },
+  "ourValues": {
+    "title": "Die Werte, die unsere Arbeit leiten",
+    "intro": "Unsere Mission wird von Prinzipien geprägt, die sicherstellen, dass jede Handlung durchdacht, nachhaltig und auf das Wohl der Kinder ausgerichtet ist.",
+    "cards": [
+      {
+        "title": "Würde zuerst",
+        "description": "Jedes Kind verdient es, mit Respekt und Fürsorge behandelt zu werden. Wir gehen unsere Arbeit mit Empathie an und stellen sicher, dass Unterstützung stärkt, statt zu etikettieren oder zu definieren."
+      },
+      {
+        "title": "Beständigkeit über Wohltätigkeit",
+        "description": "Echte Veränderung entsteht nicht durch einmalige Gesten. Wir konzentrieren uns auf stetige, zuverlässige Unterstützung, die Vertrauen aufbaut und dauerhafte Stabilität im Leben der Kinder schafft."
+      },
+      {
+        "title": "Gemeinschaftsgeführte Unterstützung",
+        "description": "Wir glauben, dass Lösungen am stärksten sind, wenn sie in der Gemeinschaft verwurzelt sind. Durch enge Zusammenarbeit mit Familien, Pädagogen und lokalen Partnern stellen wir sicher, dass unsere Wirkung sinnvoll und nachhaltig ist."
+      },
+      {
+        "title": "Langfristige Wirkung",
+        "description": "Unser Ziel ist keine kurzfristige Hilfe, sondern langfristige Transformation. Wir investieren in Bildung, Resilienz und Chancen, damit Kinder ihre eigene Zukunft selbstbewusst gestalten können."
+      }
+    ]
+  },
+  "projectsHero": {
+    "title": "Entdecken Sie unsere Projekte und sehen Sie, wie ASCA Luxemburg nachhaltige Wirkung erzielt",
+    "cta": "Erfolgsgeschichten ansehen"
+  },
+  "projects": [
+    {
+      "title": "Orphelinat de Mugera – Burundi",
+      "description": "Mugera ist ein kleines Dorf in der Provinz Gitega im Zentrum von Burundi. Das Waisenhaus, in dem etwa 40 Kinder leben, wurde früher von der Pfarrei und Freiwilligen unterstützt. Nach COVID und aufgrund extremer Armut kämpft das Projekt. Spenden von ASCA bieten Mahlzeiten und Schulmaterialien und machen einen echten Unterschied im Leben der Kinder.",
+      "images": [
+        "/projects/kr.webp",
+        "/projects/kerrr.webp"
+      ]
+    },
+    {
+      "title": "Projet Keur Moussa – Sénégal",
+      "description": "In Keur-Moussa im Senegal stehen Kinder vor Herausforderungen aufgrund begrenzter Ressourcen ihrer Eltern. Dieses Projekt, das von den Mönchen der Abtei Keur-Moussa geleitet wird, bietet wesentliche Unterstützung, einschließlich Schulmaterial, um den Kindern akademisch und persönlich zu helfen.",
+      "images": [
+        "/projects/kerr.webp",
+        "/projects/ker.webp",
+        "/projects/ke.webp",
+        "/projects/k.webp"
+      ]
+    }
+  ],
+  "contactCTA": {
+    "title": "Erfahren Sie, wie Sie sich in unserer gemeindebasierten Arbeit engagieren können",
+    "description": "Wir freuen uns immer, mit engagierten Personen und Organisationen in Kontakt zu treten. Kontaktieren Sie uns, um zu erfahren, wie Sie zu den Programmen von ASCA Luxemburg beitragen und Kindern helfen können, erfolgreich zu sein.",
+    "button": "Kontakt aufnehmen"
+  },
+  "testimonialHero": {
+    "title": "Hören Sie von Menschen, deren Leben durch unsere Programme verändert wurde, und sehen Sie die wirkliche Wirkung Ihrer Unterstützung.",
+    "cta": "Mitwirken"
+  },
+  "donateHero": {
+    "title": "Ihre Unterstützung kann die Zukunft eines Kindes verändern",
+    "cta": "Lesen Sie ihre Geschichten"
+  },
+  "donateMissionSection": {
+    "paragraphs": {
+      "p1": "Ihre Großzügigkeit hilft uns, Kinder zu unterstützen, die mit Armut, Schulabbruch, Hunger und Isolation konfrontiert sind. Jeder Beitrag stärkt unsere Fähigkeit, Bildungsunterstützung, Nahrung und emotionale Betreuung für diejenigen bereitzustellen, die sie am dringendsten benötigen.",
+      "p2": "Bei ASCA Luxemburg glauben wir an die Kraft kollektiven Handelns. Jeder Spender wird Teil einer gemeinsamen Mission – den Aufbau einer gerechteren Welt, in der jedes Kind die Möglichkeit hat, zu lernen, zu wachsen und mit Würde zu gedeihen."
+    }
+  },
+  "footer": {
+    "organization": "ASCA Luxemburg",
+    "organizationDetails": "Appui Scolaire Carlo Acutis \nGemeinnütziger Verein - ASBL\nRegistrierungsnummer: F14177",
+    "quickLinks": "Schnellzugriffe",
+    "links": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "projects": "Projekte",
+      "testimonials": "Referenzen",
+      "donate": "Spenden",
+      "legal": "Impressum"
+    },
+    "addressTitle": "Adresse",
+    "addressDetails": "21, Bënzelter Wee\nL-9742 Boxhorn\nGroßherzogtum Luxemburg",
+    "contactTitle": "Kontakt",
+    "bottomText": "© 2026 ASCA Luxemburg. Alle Rechte vorbehalten."
+  },
+  "bankDetails": {
+    "title": "Bankverbindung",
+    "subtitle": "Unterstützen Sie ASCA Luxemburg durch eine Banküberweisung",
+    "accountHolder": "Kontoinhaber",
+    "iban": "Internationale Bankkontonummer (IBAN)",
+    "bic": "Bankidentifikationscode (BIC)",
+    "bankName": "Bank",
+    "address": "Organisationsadresse",
+    "copy": "Kopieren",
+    "note": "Bitte geben Sie Ihren Namen und Ihre E-Mail-Adresse in der Überweisungsreferenz an, damit wir Ihnen eine Quittung und Bestätigung senden können."
+  },
+  "legal": {
+    "title": "Impressum",
+    "subtitle": "Hier finden Sie die offiziellen rechtlichen Informationen und Eigentümerdetails dieser Website.",
+    "lastUpdated": "Dieses Impressum wurde zuletzt am 5. Januar 2026 aktualisiert.",
+    "ownerTitle": "Der Eigentümer dieser Website ist:",
+    "ownerDetails": "Asca Luxembourg\n21, Bënzelter Wee\nL-9742 Boxhorn, Großherzogtum Luxemburg",
+    "ownerEmail": "info@ascal.eu",
+    "ownerPhone": "+49 (0)178 / 486 7057",
+    "representativesTitle": "Gesetzliche Vertreter:",
+    "representativesDetails": "Gaston Manirakiza",
+    "generalTitle": "Allgemeines",
+    "generalText": "Wir sind ein gemeinnütziger Verein, eingetragen unter der Registrierungsnummer: F14177",
+    "disputeText": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+  }
+}
