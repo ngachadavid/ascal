@@ -52,13 +52,22 @@ function ascal_enqueue_assets()
     }
 
     if (is_page('testimonials')) {
-    wp_enqueue_style(
-        'ascal-testimonials',
-        get_template_directory_uri() . '/assets/css/testimonials.css',
-        [],
-        '1.0'
-    );
-}
+        wp_enqueue_style(
+            'ascal-testimonials',
+            get_template_directory_uri() . '/assets/css/testimonials.css',
+            [],
+            '1.0'
+        );
+    }
+
+    if (is_page('donate')) {
+        wp_enqueue_style(
+            'ascal-donate',
+            get_template_directory_uri() . '/assets/css/donate.css',
+            [],
+            '1.0'
+        );
+    }
 
     wp_enqueue_style(
         'ascal-footer',

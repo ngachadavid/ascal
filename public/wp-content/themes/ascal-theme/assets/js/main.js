@@ -80,3 +80,13 @@ document.addEventListener('DOMContentLoaded', function () {
     toggleResponse(0);
 });
 
+function copyToClipboard(text, btn) {
+    navigator.clipboard.writeText(text).then(function () {
+        const original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(function () {
+            btn.textContent = original;
+        }, 2000);
+    });
+}
+

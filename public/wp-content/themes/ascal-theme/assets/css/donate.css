@@ -1,0 +1,119 @@
+/* ===== BANK DETAILS ===== */
+.bank-details {
+    padding: 128px 24px 80px;   /* py-32 mobile */
+    background: #f9fafb;
+}
+
+.bank-details-container {
+    max-width: 56rem;            /* max-w-4xl */
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.bank-details-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.bank-details-title {
+    font-size: 1.875rem;        /* text-3xl */
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.bank-details-subtitle {
+    color: #374151;
+    font-size: 1.125rem;
+}
+
+.bank-details-card {
+    background: #fff;
+    border: 2px solid #000;
+    padding: 32px;
+}
+
+.bank-field {
+    margin-bottom: 32px;
+}
+
+.bank-field-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #4b5563;
+    margin-bottom: 8px;
+}
+
+.bank-field-value {
+    font-size: 1.125rem;
+    color: rgba(0, 0, 0, 0.9);
+    line-height: 1.75;
+}
+
+.bank-field-value--bold {
+    font-weight: 600;
+}
+
+.bank-copy-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f9fafb;
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+}
+
+.bank-mono {
+    font-size: 1.25rem;         /* text-xl */
+    font-weight: 700;
+    color: #3399FF;
+    font-family: monospace;
+}
+
+.bank-copy-btn {
+    margin-left: 16px;
+    padding: 8px 16px;
+    background: #3399FF;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background 0.2s;
+    flex-shrink: 0;
+}
+
+.bank-copy-btn:hover {
+    background: #1a7de0;
+}
+
+.bank-note {
+    margin-top: 32px;
+    padding: 16px;
+    background: #eff6ff;
+}
+
+.bank-note p {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .bank-details {
+        padding: 80px 64px;
+    }
+
+    .bank-details-card {
+        padding: 48px;
+    }
+
+    .bank-details-title {
+        font-size: 2.25rem;     /* md:text-4xl */
+    }
+
+    .bank-mono {
+        font-size: 1.5rem;      /* md:text-2xl */
+    }
+}
