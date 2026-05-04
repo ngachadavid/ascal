@@ -1,0 +1,31 @@
+# Ignore all default WordPress core files
+public/wp-admin/
+public/wp-includes/
+public/wp-*.php
+public/index.php
+public/xmlrpc.php
+public/license.txt
+public/readme.html
+
+# Ignore default themes
+public/wp-content/themes/twenty*/
+
+# Ignore default plugins
+public/wp-content/plugins/hello.php
+public/wp-content/plugins/akismet/
+
+# Ignore uploads (media files)
+public/wp-content/uploads/
+
+# Ignore sensitive config
+public/wp-config.php
+
+# Ignore node modules if any
+node_modules/
+
+# Ignore DS Store and system files
+.DS_Store
+Thumbs.db
+
+# Ignore wp-config local
+wp-config-local.php
