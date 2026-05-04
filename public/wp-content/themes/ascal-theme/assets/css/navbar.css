@@ -1,286 +1,391 @@
 /* ===== NAVBAR ===== */
 #site-header {
-  width: 100%;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 20;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
 }
 
-/* Desktop navbar */
 .navbar-desktop {
-  display: none;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 12px 24px;
-  align-items: center;
-  justify-content: space-between;
+    display: none;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 12px 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-mobile {
+    display: none;
 }
 
 @media (min-width: 1024px) {
-  .navbar-desktop {
-    display: flex;
-  }
-  .navbar-mobile {
-    display: none;
-  }
+    .navbar-desktop { display: flex !important; }
+    .navbar-mobile { display: none !important; }
 }
 
-/* Logo area */
+@media (max-width: 1023px) {
+    .navbar-desktop { display: none !important; }
+    .navbar-mobile { display: block !important; }
+}
+
+/* ===== BRAND ===== */
 .navbar-brand {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
 }
 
 .navbar-logo {
-  height: 64px;
-  width: auto;
+    height: 64px;
+    width: auto;
 }
 
 .navbar-brand-text {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .navbar-name {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  line-height: 1;
-  gap: -4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
 }
 
 .navbar-name .asca {
-  font-size: 1.875rem;
-  font-weight: 600;
-  color: #3399FF;
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #3399FF;
+    line-height: 1;
 }
 
 .navbar-name .luxembourg {
-  font-size: 1.125rem;
-  font-weight: 500;
-  color: #3399FF;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #3399FF;
+    line-height: 1;
 }
 
 .navbar-separator {
-  width: 1px;
-  height: 48px;
-  background: #3399FF;
+    width: 1px;
+    height: 48px;
+    background: #3399FF;
+    flex-shrink: 0;
 }
 
 .navbar-tagline {
-  font-size: 1.125rem;
-  color: #3399FF;
-  max-width: 280px;
+    font-size: 1.125rem;
+    color: #3399FF;
+    max-width: 280px;
+    line-height: 1.4;
 }
 
-/* Nav links */
+/* ===== NAV LINKS ===== */
 .navbar-links {
-  display: flex;
-  gap: 32px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-links a {
-  color: #111;
-  font-weight: 700;
-  text-decoration: none;
-  transition: color 0.2s;
+    color: #111827;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-size: 1rem;
 }
 
 .navbar-links a:hover {
-  color: #3399FF;
+    color: #3399FF;
 }
 
-/* Right side */
+/* ===== RIGHT SIDE ===== */
 .navbar-right {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
-/* Donate button */
+/* ===== DONATE BUTTON ===== */
 .btn-donate {
-  background: #3399FF;
-  color: #fff;
-  font-weight: 700;
-  padding: 10px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background 0.2s;
-  border: none;
-  cursor: pointer;
+    background: #3399FF;
+    color: #fff !important;
+    font-weight: 700;
+    padding: 10px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-block;
 }
 
 .btn-donate:hover {
-  background: #1a7de0;
-  color: #fff;
+    background: #1a7de0;
 }
 
-/* Language switcher */
-.language-switcher {
-  display: flex;
-  gap: 6px;
+/* ===== LANGUAGE SWITCHER ===== */
+.lang-switcher {
+    position: relative;
+    color: #000;
 }
 
-.language-switcher button {
-  background: none;
-  border: 1px solid #3399FF;
-  color: #3399FF;
-  padding: 4px 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 0.875rem;
-  transition: all 0.2s;
+.lang-switcher-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 2px solid #000;
+    background: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: background 0.2s;
 }
 
-.language-switcher button:hover,
-.language-switcher button.active {
-  background: #3399FF;
-  color: #fff;
+.lang-switcher-btn:hover {
+    background: #f9fafb;
+}
+
+.lang-switcher-btn svg,
+.lang-dropdown-item svg {
+    width: 24px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.lang-code {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .lang-code {
+        display: inline;
+    }
+}
+
+.lang-chevron {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.2s;
+    flex-shrink: 0;
+}
+
+.lang-switcher.open .lang-chevron {
+    transform: rotate(180deg);
+}
+
+.lang-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 8px);
+    width: 192px;
+    background: #fff;
+    border: 2px solid #000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 50;
+}
+
+.lang-switcher.open .lang-dropdown {
+    display: block;
+}
+
+.lang-dropdown-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    text-align: left;
+    transition: background 0.2s;
+    color: #000;
+}
+
+.lang-dropdown-item:hover {
+    background: #eff6ff;
+}
+
+.lang-dropdown-item.active {
+    background: #dbeafe;
+    font-weight: 700;
+}
+
+/* Mobile blue bar language switcher */
+.navbar-mobile-bar .lang-switcher-btn {
+    border-color: #fff;
+    color: #fff;
+    background: transparent;
+}
+
+.navbar-mobile-bar .lang-switcher-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-mobile-bar .lang-chevron {
+    stroke: #fff;
+}
+
+.navbar-mobile-bar .lang-dropdown {
+    border-color: #000;
+}
+
+.navbar-mobile-bar .lang-dropdown-item {
+    color: #000;
 }
 
 /* ===== MOBILE ===== */
-.navbar-mobile {
-  display: block;
-}
-
 .navbar-mobile-top {
-  padding: 12px 16px;
+    padding: 12px 16px;
 }
 
 .navbar-mobile-top a {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
 }
 
 .navbar-mobile-logo {
-  height: 40px;
-  width: auto;
+    height: 40px;
+    width: auto;
 }
 
 .navbar-mobile-brand {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-mobile-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+    gap: 2px;
 }
 
 .navbar-mobile-name .asca {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: #3399FF;
-  display: block;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #3399FF;
+    line-height: 1;
 }
 
 .navbar-mobile-name .luxembourg {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #3399FF;
-  display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #3399FF;
+    line-height: 1;
 }
 
 .navbar-mobile-separator {
-  width: 1px;
-  height: 32px;
-  background: #3399FF;
+    width: 1px;
+    height: 32px;
+    background: #3399FF;
+    flex-shrink: 0;
 }
 
 .navbar-mobile-tagline {
-  font-size: 0.875rem;
-  color: #3399FF;
+    font-size: 0.875rem;
+    color: #3399FF;
+    line-height: 1.4;
 }
 
 /* Blue bar */
 .navbar-mobile-bar {
-  background: #3399FF;
-  padding: 8px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    background: #3399FF;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar-mobile-actions {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
-/* Language switcher mobile (white variant) */
-.navbar-mobile-bar .language-switcher button {
-  border-color: #fff;
-  color: #fff;
+/* Donate button on mobile bar */
+.navbar-mobile-bar .btn-donate {
+    background: #fff;
+    color: #3399FF !important;
+    padding: 6px 16px;
+    font-size: 0.875rem;
 }
 
-.navbar-mobile-bar .language-switcher button:hover,
-.navbar-mobile-bar .language-switcher button.active {
-  background: #fff;
-  color: #3399FF;
+.navbar-mobile-bar .btn-donate:hover {
+    background: #e6f0ff;
 }
 
 /* Hamburger */
 .hamburger {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
 }
 
 .hamburger span {
-  display: block;
-  width: 24px;
-  height: 2px;
-  background: #fff;
-  transition: all 0.3s;
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: #fff;
+    transition: all 0.3s;
 }
 
 .hamburger.open span:nth-child(1) {
-  transform: rotate(45deg) translate(4px, 4px);
+    transform: rotate(45deg) translate(4px, 4px);
 }
 
 .hamburger.open span:nth-child(2) {
-  opacity: 0;
+    opacity: 0;
 }
 
 .hamburger.open span:nth-child(3) {
-  transform: rotate(-45deg) translate(4px, -4px);
+    transform: rotate(-45deg) translate(4px, -4px);
 }
 
-/* Mobile dropdown */
+/* Mobile dropdown menu */
 .navbar-mobile-menu {
-  display: none;
-  background: #fff;
-  border-top: 1px solid #e5e7eb;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: none;
+    background: #fff;
+    border-top: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-mobile-menu.open {
-  display: block;
+    display: block;
 }
 
 .navbar-mobile-menu a {
-  display: block;
-  padding: 12px 24px;
-  font-size: 1.125rem;
-  font-weight: 700;
-  color: #111;
-  text-decoration: none;
-  border-bottom: 1px solid #f3f4f6;
-  transition: color 0.2s;
+    display: block;
+    padding: 12px 24px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #111827;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f4f6;
+    transition: color 0.2s;
 }
 
 .navbar-mobile-menu a:hover {
-  color: #3399FF;
+    color: #3399FF;
 }

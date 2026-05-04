@@ -1,5 +1,5 @@
 <footer id="site-footer">
-        <!-- Your custom footer will go here -->
+        <!-- Footer content here -->
     </footer>
 
     <?php wp_footer(); ?>
