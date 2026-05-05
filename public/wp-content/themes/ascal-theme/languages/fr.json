@@ -1,256 +1,264 @@
 {
-  "nav": {
-    "about": "À propos",
-    "projects": "Projets",
-    "testimonials": "Témoignages",
-    "contact": "Contact",
-    "donate": "Faire un don",
-    "legal": "Mentions Légales",
-    "tagline": "Sauver les enfants pour un monde meilleur"
-  },
-  "hero": {
-    "title": "Soutenir le parcours de chaque enfant vers le succès",
-    "subtitle": "ASCA Luxembourg défend l'éducation et les soins pour les enfants en difficulté, les aidant à surmonter des défis comme la pauvreté, l'isolement et la perte pour construire un avenir meilleur.",
-    "cta": "En savoir plus"
-  },
-  "mission": {
-    "line1": "ASCA",
-    "line1Bold": "(Appui Scolaire Carlo Acutis Luxembourg)",
-    "line1Rest": " a été fondée sous l'inspiration du jeune Saint Carlo Acutis, perpétuant son héritage de compassion et de service envers les plus démunis.",
-    "line2": "Nous sommes une organisation à but non lucratif fondée sur la conviction que chacun mérite un accès égal à l'éducation, aux soins de santé et au soutien."
-  },
-  "impact": {
-    "title": "Découvrez comment ASCA Luxembourg soutient les enfants vulnérables pour un monde meilleur",
-    "education": {
-      "title": "Éducation et rétention",
-      "description": "Nous soutenons le développement et l'éducation des enfants issus de familles socialement et économiquement défavorisées. Grâce au mentorat, aux conseils et à l'accès aux ressources d'apprentissage, nous aidons les enfants à rester motivés, à fréquenter régulièrement l'école et à réussir académiquement, jetant les bases d'un avenir meilleur."
+    "nav": {
+        "about": "À propos",
+        "projects": "Projets",
+        "testimonials": "Témoignages",
+        "contact": "Contact",
+        "donate": "Faire un don",
+        "legal": "Mentions Légales",
+        "tagline": "Sauver les enfants pour un monde meilleur"
     },
-    "dropout": {
-      "title": "Prévention du décrochage scolaire",
-      "description": "ASCA travaille à combattre le décrochage scolaire, en particulier chez les enfants orphelins et ceux qui font face au deuil. En combinant soutien académique et accompagnement émotionnel, plans d'apprentissage personnalisés et suivis réguliers, nous veillons à ce que les enfants restent engagés à l'école et poursuivent leur parcours éducatif."
+    "hero": {
+        "title": "Soutenir le parcours de chaque enfant vers le succès",
+        "subtitle": "ASCA Luxembourg défend l'éducation et les soins pour les enfants en difficulté, les aidant à surmonter des défis comme la pauvreté, l'isolement et la perte pour construire un avenir meilleur.",
+        "cta": "En savoir plus"
     },
-    "inclusion": {
-      "title": "Inclusion sociale et lutte contre la pauvreté",
-      "description": "Nous luttons contre l'isolement et l'extrême pauvreté en créant des environnements sûrs et solidaires pour les enfants et les familles dans le besoin. Grâce à des programmes communautaires, des activités sociales et du conseil, nous favorisons l'inclusion, la résilience et le sentiment d'appartenance, permettant aux enfants de surmonter les défis et de participer pleinement à la société."
+    "mission": {
+        "line1": "ASCA",
+        "line1Bold": "(Appui Scolaire Carlo Acutis Luxembourg)",
+        "line1Rest": " a été fondée sous l'inspiration du jeune Saint Carlo Acutis, perpétuant son héritage de compassion et de service envers les plus démunis.",
+        "line2": "Nous sommes une organisation à but non lucratif fondée sur la conviction que chacun mérite un accès égal à l'éducation, aux soins de santé et au soutien."
     },
-    "nutrition": {
-      "title": "Nutrition et bien-être",
-      "description": "ASCA s'attaque à la faim et à la malnutrition en fournissant des ressources essentielles et de la nourriture. Nos programmes garantissent que les enfants ont accès à des repas équilibrés, à l'éducation à la santé et au soutien de leur bien-être physique et émotionnel, leur permettant de grandir, d'apprendre et de s'épanouir dans un environnement sûr et sain."
+    "impact": {
+        "title": "Découvrez comment ASCA Luxembourg soutient les enfants vulnérables pour un monde meilleur",
+        "education": {
+            "title": "Éducation et rétention",
+            "description": "Nous soutenons le développement et l'éducation des enfants issus de familles socialement et économiquement défavorisées. Grâce au mentorat, aux conseils et à l'accès aux ressources d'apprentissage, nous aidons les enfants à rester motivés, à fréquenter régulièrement l'école et à réussir académiquement, jetant les bases d'un avenir meilleur."
+        },
+        "dropout": {
+            "title": "Prévention du décrochage scolaire",
+            "description": "ASCA travaille à combattre le décrochage scolaire, en particulier chez les enfants orphelins et ceux qui font face au deuil. En combinant soutien académique et accompagnement émotionnel, plans d'apprentissage personnalisés et suivis réguliers, nous veillons à ce que les enfants restent engagés à l'école et poursuivent leur parcours éducatif."
+        },
+        "inclusion": {
+            "title": "Inclusion sociale et lutte contre la pauvreté",
+            "description": "Nous luttons contre l'isolement et l'extrême pauvreté en créant des environnements sûrs et solidaires pour les enfants et les familles dans le besoin. Grâce à des programmes communautaires, des activités sociales et du conseil, nous favorisons l'inclusion, la résilience et le sentiment d'appartenance, permettant aux enfants de surmonter les défis et de participer pleinement à la société."
+        },
+        "nutrition": {
+            "title": "Nutrition et bien-être",
+            "description": "ASCA s'attaque à la faim et à la malnutrition en fournissant des ressources essentielles et de la nourriture. Nos programmes garantissent que les enfants ont accès à des repas équilibrés, à l'éducation à la santé et au soutien de leur bien-être physique et émotionnel, leur permettant de grandir, d'apprendre et de s'épanouir dans un environnement sûr et sain."
+        }
+    },
+    "testimonial": {
+        "title": "Écoutez l'une des vies que nous soutenons",
+        "subtitle": "Directrice, Orphelinat Sainte Marie Mère de Dieu – Mugera",
+        "paragraphs": {
+            "p1": "L'orphelinat Sainte Marie Mère de Dieu a été fondé en 1946 par Mademoiselle Rosa Nyanzira. Sa mission était de secourir les enfants complètement démunis — orphelins, enfants abandonnés et ceux dont les parents étaient handicapés ou souffraient de maladies mentales. Elle accueillait les enfants de tous horizons sans discrimination.",
+            "p2": "Plus tard, Mama Nestor Nzisabira l'a rejointe. Elles ont travaillé ensemble pendant de nombreuses années. Mama Nestor a ensuite fondé la Congrégation des Sœurs de Sainte Bernadette, qui ont aidé à prendre soin des enfants aux côtés de Mademoiselle Rosa.",
+            "p3": "Mademoiselle Rosa a fait face à de nombreuses épreuves, en particulier le manque de nourriture. Elle emmenait les enfants à l'église pour prier, puis sur une montagne voisine appelée « Lourdes » à Mugera pour demander à Jésus et Marie de la nourriture. La providence suivait toujours.",
+            "p4": "La paroisse fournissait autrefois des terres à cultiver pour soutenir l'orphelinat. Aujourd'hui, en raison des difficultés économiques, ce soutien a considérablement diminué. Nous ne recevons désormais qu'une aide minimale des mouvements locaux.",
+            "p5": "La maison est divisée en un dortoir et un espace de vie pour les filles, et un dortoir séparé pour les garçons. Nous vivons grâce à la miséricorde divine et à la générosité des bienfaiteurs choisis par le Seigneur — comme ASCA.",
+            "p6": "Depuis le début, notre façon de survivre a été d'envoyer les enfants à l'école afin qu'ils aient un meilleur avenir. Nous leur apprenons également à cultiver, à s'occuper des animaux et à prier pour ceux qui les aident.",
+            "p7": "Nous élevons de petits animaux — poulets, lapins et chèvres — pour fournir occasionnellement de la viande et du fumier pour nos cultures. Nous espérions acquérir du gros bétail, mais le coût est trop élevé. Même un jeune taureau coûte plus d'un million de francs burundais.",
+            "p8": "Je conclus en vous remerciant du fond du cœur pour les efforts que vous faites et l'amour que vous nous montrez continuellement. Que Dieu vous bénisse et vous fortifie."
+        },
+        "signature": "— Mme Béatrice Ntunzwenayo"
+    },
+    "faq": {
+        "title": "Questions Fréquemment Posées",
+        "questions": [
+            {
+                "question": "Comment ASCA Luxembourg soutient-elle les étudiants orphelins ?",
+                "answer": "Nous fournissons une assistance éducative, du mentorat et un soutien émotionnel pour aider les enfants orphelins et vulnérables à rester engagés à l'école. Notre objectif est de créer une stabilité qui leur permet de se concentrer, d'apprendre et de renforcer leur confiance en l'avenir."
+            },
+            {
+                "question": "Quelles initiatives abordent le décrochage scolaire chez les enfants en deuil ?",
+                "answer": "Nos programmes combinent soutien académique, conseil et accompagnement personnalisé. En répondant aux besoins émotionnels et éducatifs, nous aidons les enfants à rester motivés et à réduire le risque de quitter prématurément l'école."
+            },
+            {
+                "question": "Comment ASCA lutte-t-elle contre la faim et la malnutrition ?",
+                "answer": "Nous travaillons aux côtés de partenaires communautaires pour garantir que les enfants aient accès à des repas nutritifs et à une sensibilisation de base à la santé. Une nutrition adéquate est essentielle pour l'apprentissage, le développement et le bien-être général."
+            },
+            {
+                "question": "Qui peut bénéficier des services d'ASCA Luxembourg ?",
+                "answer": "Nos programmes sont conçus pour les enfants confrontés à des difficultés sociales et économiques, en particulier ceux à risque de décrochage scolaire. Nous priorisons les enfants qui nécessitent un soutien constant pour surmonter les obstacles éducatifs et émotionnels."
+            }
+        ]
+    },
+    "donateCTA": {
+        "title": "Faire un don à ASCA",
+        "description": "Soutenez les enfants vulnérables par l'éducation, la nutrition et les soins émotionnels. Ensemble, nous pouvons créer des communautés où chaque enfant s'épanouit.",
+        "inquiry": "Pour toute demande, veuillez contacter notre équipe.",
+        "button": "Faire un don à ASCA"
+    },
+    "contact": {
+        "title": "Autonomiser les enfants confrontés à la perte et aux difficultés",
+        "subtitle": "Chaque message compte. Contactez-nous et faites le premier pas pour avoir un impact réel dans la vie des enfants qui en ont le plus besoin.",
+        "form": {
+            "name": "Votre nom",
+            "email": "Votre email",
+            "subject": "Sujet",
+            "message": "Votre message",
+            "optional": "(optionnel)",
+            "submit": "Envoyer le message"
+        }
+    },
+    "aboutHero": {
+        "title": "Nous donnons aux enfants confrontés à des difficultés les moyens d'agir grâce à l'éducation, aux soins et aux opportunités de construire un avenir meilleur.",
+        "button": "Soutenez-nous"
+    },
+    "theChallenge": {
+        "title": "Le défi",
+        "intro": "De nombreux enfants font face à des obstacles qui vont au-delà de la salle de classe — des défis qui façonnent silencieusement leur avenir bien avant qu'ils aient la chance de le choisir.",
+        "paragraphs": {
+            "p1": "Pour certains enfants, l'école devient difficile non pas parce qu'ils manquent de potentiel, mais parce que la pauvreté crée une incertitude constante. Lorsque les familles ont du mal à se payer des repas, des uniformes ou des fournitures de base, l'éducation peut lentement devenir hors de portée.",
+            "p2": "La malnutrition affecte plus que la santé physique — elle impacte la concentration, la confiance et le développement à long terme. Un enfant affamé ne peut pas se concentrer pleinement sur l'apprentissage ou participer avec la même énergie que ses pairs.",
+            "p3": "L'isolement et la détresse émotionnelle suivent souvent la perte ou les difficultés. Les enfants qui connaissent le deuil, le déplacement ou l'exclusion sociale peuvent se retirer, portant des fardeaux émotionnels qui façonnent leur vision d'eux-mêmes et du monde.",
+            "p4": "Ces défis sont interconnectés. Le décrochage scolaire, la pauvreté, la faim et la tension émotionnelle existent rarement seuls. Pour créer un changement durable, le soutien doit s'adresser à l'enfant dans son ensemble — académiquement, socialement et émotionnellement."
+        }
+    },
+    "ourResponse": {
+        "title": "Notre réponse",
+        "intro": "Le changement durable commence par un soutien réfléchi. Nous nous concentrons sur des interventions pratiques et cohérentes qui aident les enfants à retrouver stabilité, confiance et opportunités.",
+        "items": [
+            {
+                "title": "Éducation et rétention",
+                "content": "Nous travaillons pour maintenir les enfants engagés à l'école grâce au mentorat, aux ressources d'apprentissage et aux encouragements continus. L'éducation devient un chemin vers l'avenir, et non un privilège en danger."
+            },
+            {
+                "title": "Nutrition et soutien de base",
+                "content": "En répondant à la faim et aux besoins essentiels, nous créons la stabilité dont les enfants ont besoin pour se concentrer, grandir et participer pleinement à la vie scolaire et communautaire."
+            },
+            {
+                "title": "Soins émotionnels et inclusion",
+                "content": "Grâce à des espaces sûrs, à des conseils et à des connexions communautaires, nous aidons les enfants à reconstruire leur confiance et à se sentir vus, soutenus et valorisés."
+            },
+            {
+                "title": "Compétences et opportunités futures",
+                "content": "Nous préparons les enfants à un succès à long terme en développant des compétences pratiques, la résilience et l'ambition — leur permettant de façonner leur propre avenir avec confiance."
+            }
+        ]
+    },
+    "history": {
+        "title": "Notre Histoire",
+        "text": "Créée le 30 juillet 2023 par un groupe d'Oblats Séculiers Bénédictins appartenant au Tiers Ordre Bénédictin de l'Abbaye de Clervaux, l'association croit que venir en aide à un enfant orphelin, pauvre ou abandonné revient à sauver l'humanité pour un monde meilleur.\n\nLa pauvreté est injuste. ASCA s'engage à ne laisser aucun enfant vivant dans une extrême précarité derrière, en leur offrant le soutien dont ils ont besoin pour suivre une éducation épanouissante et avoir suffisamment à manger.\n\nSaint Carlo Acutis, le patron de notre association, sert de modèle de générosité et de compassion envers les plus vulnérables, les plus pauvres parmi les pauvres."
+    },
+    "ourValues": {
+        "title": "Les Valeurs Qui Guident Notre Travail",
+        "intro": "Notre mission est façonnée par des principes qui garantissent que chaque action soit réfléchie, durable et centrée sur le bien-être des enfants.",
+        "cards": [
+            {
+                "title": "La Dignité Avant Tout",
+                "description": "Chaque enfant mérite d’être traité avec respect et attention. Nous abordons notre travail avec empathie, en veillant à ce que le soutien responsabilise plutôt qu’il n’étiquette ou ne définit."
+            },
+            {
+                "title": "La Cohérence Avant la Charité",
+                "description": "Le vrai changement ne vient pas d’un geste ponctuel. Nous nous concentrons sur un soutien régulier et fiable qui instaure la confiance et crée une stabilité durable dans la vie des enfants."
+            },
+            {
+                "title": "Soutien Mené par la Communauté",
+                "description": "Nous croyons que les solutions sont les plus fortes lorsqu’elles sont enracinées dans la communauté. En travaillant étroitement avec les familles, les éducateurs et les partenaires locaux, nous garantissons un impact significatif et durable."
+            },
+            {
+                "title": "Impact à Long Terme",
+                "description": "Notre objectif n’est pas un soulagement temporaire, mais une transformation à long terme. Nous investissons dans l’éducation, la résilience et les opportunités afin que les enfants puissent façonner leur avenir en toute confiance."
+            }
+        ]
+    },
+    "projectsHero": {
+        "title": "Découvrez nos projets et voyez comment ASCA Luxembourg crée un impact durable",
+        "cta": "Voir les histoires d'impact"
+    },
+    "projects": [
+        {
+            "title": "Orphelinat de Mugera – Burundi",
+            "description": "Mugera est un petit village de la province de Gitega, au centre du Burundi. L'orphelinat, qui accueille environ 40 enfants, était autrefois soutenu par la paroisse et des bénévoles. Après la COVID et en raison de l'extrême pauvreté, le projet rencontre des difficultés. Les dons d'ASCA fournissent des repas et du matériel scolaire, faisant une réelle différence dans la vie des enfants.",
+            "images": [
+                "/projects/kr.webp",
+                "/projects/kerrr.webp"
+            ]
+        },
+        {
+            "title": "Projet Keur Moussa – Sénégal",
+            "description": "À Keur-Moussa au Sénégal, les enfants font face à des défis en raison des ressources limitées de leurs parents. Ce projet, géré par les moines de l'abbaye de Keur-Moussa, fournit un soutien essentiel, y compris le matériel scolaire, pour aider les enfants à s'épanouir académiquement et personnellement.",
+            "images": [
+                "/projects/kerr.webp",
+                "/projects/ker.webp",
+                "/projects/ke.webp",
+                "/projects/k.webp"
+            ]
+        }
+    ],
+    "contactCTA": {
+        "title": "Découvrez comment vous impliquer dans nos actions communautaires",
+        "description": "Nous sommes toujours ravis de nous connecter avec des personnes et des organisations passionnées. Contactez-nous pour savoir comment vous pouvez contribuer aux programmes d'ASCA Luxembourg et aider les enfants à s'épanouir.",
+        "button": "Contactez-nous"
+    },
+    "testimonialHero": {
+        "title": "Découvrez les témoignages de personnes dont la vie a été transformée par nos programmes et constatez l'impact réel de votre soutien.",
+        "cta": "Participez"
+    },
+    "testimonialSection": {
+        "header": "Ce que disent les gens",
+        "testimonials": [
+            {
+                "quote": "La compassion et l'engagement démontrés par l'équipe ASCA ont fait une réelle différence dans le parcours éducatif de notre enfant.",
+                "name": "Enseignant et Bénévole"
+            },
+            {
+                "quote": "Le soutien expert d'ASCA Luxembourg aide les élèves vulnérables à surmonter les obstacles et à gagner en confiance dans leurs capacités.",
+                "name": "Coordinateur de sensibilisation communautaire"
+            },
+            {
+                "quote": "En tant que bénévole, j'ai été témoin de l'impact incroyable d'ASCA sur les enfants vulnérables. Leur dévouement à créer des environnements sûrs et bienveillants est vraiment inspirant.",
+                "name": "Sophie Laurent"
+            },
+            {
+                "quote": "Leur approche holistique garantit que les enfants restent non seulement à l'école, mais se sentent valorisés et soutenus à chaque étape.",
+                "name": "Travailleur social"
+            }
+        ]
+    },
+    "donateMissionSection": {
+        "paragraphs": {
+            "p1": "Votre générosité nous aide à soutenir les enfants confrontés à la pauvreté, au décrochage scolaire, à la faim et à l’isolement. Chaque contribution renforce notre capacité à fournir un soutien éducatif, une alimentation et un accompagnement émotionnel à ceux qui en ont le plus besoin.",
+            "p2": "Chez ASCA Luxembourg, nous croyons au pouvoir de l’action collective. Chaque donateur devient partie prenante d’une mission commune — construire un monde plus juste où chaque enfant a la possibilité d’apprendre, de grandir et de s’épanouir avec dignité."
+        }
+    },
+    "footer": {
+        "organization": "ASCA Luxembourg",
+        "organizationDetails": "Appui Scolaire Carlo Acutis \nAssociation Sans But Lucratif - ASBL \nNuméro d’enregistrement : F14177",
+        "quickLinks": "Liens rapides",
+        "links": {
+            "home": "Accueil",
+            "about": "À propos",
+            "projects": "Projets",
+            "testimonials": "Témoignages",
+            "donate": "Faire un don",
+            "legal": "Mentions Légales"
+        },
+        "addressTitle": "Adresse",
+        "addressDetails": "21, Bënzelter Wee\nL-9742 Boxhorn\nGrand-Duché de Luxembourg",
+        "contactTitle": "Contact",
+        "bottomText": "© 2026 ASCA Luxembourg. Tous droits réservés."
+    },
+    "bankDetails": {
+        "title": "Coordonnées bancaires",
+        "subtitle": "Soutenez ASCA Luxembourg par virement bancaire",
+        "accountHolder": "Titulaire du compte",
+        "iban": "Numéro de Compte Bancaire International (IBAN)",
+        "bic": "Code d'Identification Bancaire (BIC)",
+        "bankName": "Banque",
+        "address": "Adresse de l'organisation",
+        "copy": "Copier",
+        "note": "Veuillez inclure votre nom et email dans la référence du virement afin que nous puissions vous envoyer un reçu et une confirmation."
+    },
+    "legal": {
+        "title": "Mentions Légales",
+        "subtitle": "Retrouvez les informations légales officielles et les détails relatifs à la propriété de ce site.",
+        "lastUpdated": "Ces mentions légales ont été mises à jour le 5 janvier 2026.",
+        "ownerTitle": "Le propriétaire de ce site est :",
+        "ownerDetails": "Asca Luxembourg\n21, Bënzelter Wee\nL-9742 Boxhorn, Grand-Duché de Luxembourg",
+        "ownerEmail": "info@ascal.eu",
+        "ownerPhone": "+49 (0)178 / 486 7057",
+        "representativesTitle": "Représentants légaux :",
+        "representativesDetails": "Gaston Manirakiza",
+        "generalTitle": "Général",
+        "generalText": "Nous sommes une association sans but lucratif enregistrée sous le numéro d'enregistrement : F14177",
+        "disputeText": "Nous ne sommes pas disposés ni obligés de participer à des procédures de résolution des litiges devant un conseil d'arbitrage à la consommation."
+    },
+    "thankYou": {
+        "title": "Merci pour votre don !",
+        "message": "Votre générosité aide ASCA Luxembourg à soutenir les enfants vulnérables grâce à l'éducation et aux soins. Nous vous en sommes profondément reconnaissants.",
+        "button": "Retour à l'accueil"
     }
-  }
-  ,
-  "testimonial": {
-    "title": "Écoutez l'une des vies que nous soutenons",
-    "subtitle": "Directrice, Orphelinat Sainte Marie Mère de Dieu – Mugera",
-    "paragraphs": {
-      "p1": "L'orphelinat Sainte Marie Mère de Dieu a été fondé en 1946 par Mademoiselle Rosa Nyanzira. Sa mission était de secourir les enfants complètement démunis — orphelins, enfants abandonnés et ceux dont les parents étaient handicapés ou souffraient de maladies mentales. Elle accueillait les enfants de tous horizons sans discrimination.",
-      "p2": "Plus tard, Mama Nestor Nzisabira l'a rejointe. Elles ont travaillé ensemble pendant de nombreuses années. Mama Nestor a ensuite fondé la Congrégation des Sœurs de Sainte Bernadette, qui ont aidé à prendre soin des enfants aux côtés de Mademoiselle Rosa.",
-      "p3": "Mademoiselle Rosa a fait face à de nombreuses épreuves, en particulier le manque de nourriture. Elle emmenait les enfants à l'église pour prier, puis sur une montagne voisine appelée « Lourdes » à Mugera pour demander à Jésus et Marie de la nourriture. La providence suivait toujours.",
-      "p4": "La paroisse fournissait autrefois des terres à cultiver pour soutenir l'orphelinat. Aujourd'hui, en raison des difficultés économiques, ce soutien a considérablement diminué. Nous ne recevons désormais qu'une aide minimale des mouvements locaux.",
-      "p5": "La maison est divisée en un dortoir et un espace de vie pour les filles, et un dortoir séparé pour les garçons. Nous vivons grâce à la miséricorde divine et à la générosité des bienfaiteurs choisis par le Seigneur — comme ASCA.",
-      "p6": "Depuis le début, notre façon de survivre a été d'envoyer les enfants à l'école afin qu'ils aient un meilleur avenir. Nous leur apprenons également à cultiver, à s'occuper des animaux et à prier pour ceux qui les aident.",
-      "p7": "Nous élevons de petits animaux — poulets, lapins et chèvres — pour fournir occasionnellement de la viande et du fumier pour nos cultures. Nous espérions acquérir du gros bétail, mais le coût est trop élevé. Même un jeune taureau coûte plus d'un million de francs burundais.",
-      "p8": "Je conclus en vous remerciant du fond du cœur pour les efforts que vous faites et l'amour que vous nous montrez continuellement. Que Dieu vous bénisse et vous fortifie."
-    },
-    "signature": "— Mme Béatrice Ntunzwenayo"
-  }
-  ,
-  "faq": {
-    "title": "Questions Fréquemment Posées",
-    "questions": [
-      {
-        "question": "Comment ASCA Luxembourg soutient-elle les étudiants orphelins ?",
-        "answer": "Nous fournissons une assistance éducative, du mentorat et un soutien émotionnel pour aider les enfants orphelins et vulnérables à rester engagés à l'école. Notre objectif est de créer une stabilité qui leur permet de se concentrer, d'apprendre et de renforcer leur confiance en l'avenir."
-      },
-      {
-        "question": "Quelles initiatives abordent le décrochage scolaire chez les enfants en deuil ?",
-        "answer": "Nos programmes combinent soutien académique, conseil et accompagnement personnalisé. En répondant aux besoins émotionnels et éducatifs, nous aidons les enfants à rester motivés et à réduire le risque de quitter prématurément l'école."
-      },
-      {
-        "question": "Comment ASCA lutte-t-elle contre la faim et la malnutrition ?",
-        "answer": "Nous travaillons aux côtés de partenaires communautaires pour garantir que les enfants aient accès à des repas nutritifs et à une sensibilisation de base à la santé. Une nutrition adéquate est essentielle pour l'apprentissage, le développement et le bien-être général."
-      },
-      {
-        "question": "Qui peut bénéficier des services d'ASCA Luxembourg ?",
-        "answer": "Nos programmes sont conçus pour les enfants confrontés à des difficultés sociales et économiques, en particulier ceux à risque de décrochage scolaire. Nous priorisons les enfants qui nécessitent un soutien constant pour surmonter les obstacles éducatifs et émotionnels."
-      }
-    ]
-  }
-  ,
-  "donateCTA": {
-    "title": "Faire un don à ASCA",
-    "description": "Soutenez les enfants vulnérables par l'éducation, la nutrition et les soins émotionnels. Ensemble, nous pouvons créer des communautés où chaque enfant s'épanouit.",
-    "inquiry": "Pour toute demande, veuillez contacter notre équipe.",
-    "button": "Faire un don à ASCA"
-  }
-  ,
-  "contact": {
-    "title": "Autonomiser les enfants confrontés à la perte et aux difficultés",
-    "subtitle": "Chaque message compte. Contactez-nous et faites le premier pas pour avoir un impact réel dans la vie des enfants qui en ont le plus besoin.",
-    "form": {
-      "name": "Votre nom",
-      "email": "Votre email",
-      "subject": "Sujet",
-      "message": "Votre message",
-      "optional": "(optionnel)",
-      "submit": "Envoyer le message"
-    }
-  },
-  "aboutHero": {
-    "title": "Nous donnons aux enfants confrontés à des difficultés les moyens d'agir grâce à l'éducation, aux soins et aux opportunités de construire un avenir meilleur.",
-    "button": "Soutenez-nous"
-  },
-  "theChallenge": {
-    "title": "Le défi",
-    "intro": "De nombreux enfants font face à des obstacles qui vont au-delà de la salle de classe — des défis qui façonnent silencieusement leur avenir bien avant qu'ils aient la chance de le choisir.",
-    "paragraphs": {
-      "p1": "Pour certains enfants, l'école devient difficile non pas parce qu'ils manquent de potentiel, mais parce que la pauvreté crée une incertitude constante. Lorsque les familles ont du mal à se payer des repas, des uniformes ou des fournitures de base, l'éducation peut lentement devenir hors de portée.",
-      "p2": "La malnutrition affecte plus que la santé physique — elle impacte la concentration, la confiance et le développement à long terme. Un enfant affamé ne peut pas se concentrer pleinement sur l'apprentissage ou participer avec la même énergie que ses pairs.",
-      "p3": "L'isolement et la détresse émotionnelle suivent souvent la perte ou les difficultés. Les enfants qui connaissent le deuil, le déplacement ou l'exclusion sociale peuvent se retirer, portant des fardeaux émotionnels qui façonnent leur vision d'eux-mêmes et du monde.",
-      "p4": "Ces défis sont interconnectés. Le décrochage scolaire, la pauvreté, la faim et la tension émotionnelle existent rarement seuls. Pour créer un changement durable, le soutien doit s'adresser à l'enfant dans son ensemble — académiquement, socialement et émotionnellement."
-    }
-  }
-,
-  "ourResponse": {
-    "title": "Notre réponse",
-    "intro": "Le changement durable commence par un soutien réfléchi. Nous nous concentrons sur des interventions pratiques et cohérentes qui aident les enfants à retrouver stabilité, confiance et opportunités.",
-    "items": [
-      {
-        "title": "Éducation et rétention",
-        "content": "Nous travaillons pour maintenir les enfants engagés à l'école grâce au mentorat, aux ressources d'apprentissage et aux encouragements continus. L'éducation devient un chemin vers l'avenir, et non un privilège en danger."
-      },
-      {
-        "title": "Nutrition et soutien de base",
-        "content": "En répondant à la faim et aux besoins essentiels, nous créons la stabilité dont les enfants ont besoin pour se concentrer, grandir et participer pleinement à la vie scolaire et communautaire."
-      },
-      {
-        "title": "Soins émotionnels et inclusion",
-        "content": "Grâce à des espaces sûrs, à des conseils et à des connexions communautaires, nous aidons les enfants à reconstruire leur confiance et à se sentir vus, soutenus et valorisés."
-      },
-      {
-        "title": "Compétences et opportunités futures",
-        "content": "Nous préparons les enfants à un succès à long terme en développant des compétences pratiques, la résilience et l'ambition — leur permettant de façonner leur propre avenir avec confiance."
-      }
-    ]
-  },
-"history": {
-  "title": "Notre Histoire",
-  "text": "Créée le 30 juillet 2023 par un groupe d'Oblats Séculiers Bénédictins appartenant au Tiers Ordre Bénédictin de l'Abbaye de Clervaux, l'association croit que venir en aide à un enfant orphelin, pauvre ou abandonné revient à sauver l'humanité pour un monde meilleur.\n\nLa pauvreté est injuste. ASCA s'engage à ne laisser aucun enfant vivant dans une extrême précarité derrière, en leur offrant le soutien dont ils ont besoin pour suivre une éducation épanouissante et avoir suffisamment à manger.\n\nSaint Carlo Acutis, le patron de notre association, sert de modèle de générosité et de compassion envers les plus vulnérables, les plus pauvres parmi les pauvres."
-},
-"ourValues": {
-  "title": "Les Valeurs Qui Guident Notre Travail",
-  "intro": "Notre mission est façonnée par des principes qui garantissent que chaque action soit réfléchie, durable et centrée sur le bien-être des enfants.",
-  "cards": [
-    {
-      "title": "La Dignité Avant Tout",
-      "description": "Chaque enfant mérite d’être traité avec respect et attention. Nous abordons notre travail avec empathie, en veillant à ce que le soutien responsabilise plutôt qu’il n’étiquette ou ne définit."
-    },
-    {
-      "title": "La Cohérence Avant la Charité",
-      "description": "Le vrai changement ne vient pas d’un geste ponctuel. Nous nous concentrons sur un soutien régulier et fiable qui instaure la confiance et crée une stabilité durable dans la vie des enfants."
-    },
-    {
-      "title": "Soutien Mené par la Communauté",
-      "description": "Nous croyons que les solutions sont les plus fortes lorsqu’elles sont enracinées dans la communauté. En travaillant étroitement avec les familles, les éducateurs et les partenaires locaux, nous garantissons un impact significatif et durable."
-    },
-    {
-      "title": "Impact à Long Terme",
-      "description": "Notre objectif n’est pas un soulagement temporaire, mais une transformation à long terme. Nous investissons dans l’éducation, la résilience et les opportunités afin que les enfants puissent façonner leur avenir en toute confiance."
-    }
-  ]
-},
-"projectsHero": {
-  "title": "Découvrez nos projets et voyez comment ASCA Luxembourg crée un impact durable",
-  "cta": "Voir les histoires d'impact"
-},
-"projects": [
-  {
-    "title": "Orphelinat de Mugera – Burundi",
-    "description": "Mugera est un petit village de la province de Gitega, au centre du Burundi. L'orphelinat, qui accueille environ 40 enfants, était autrefois soutenu par la paroisse et des bénévoles. Après la COVID et en raison de l'extrême pauvreté, le projet rencontre des difficultés. Les dons d'ASCA fournissent des repas et du matériel scolaire, faisant une réelle différence dans la vie des enfants.",
-    "images": ["/projects/kr.webp", "/projects/kerrr.webp"]
-  },
-  {
-    "title": "Projet Keur Moussa – Sénégal",
-    "description": "À Keur-Moussa au Sénégal, les enfants font face à des défis en raison des ressources limitées de leurs parents. Ce projet, géré par les moines de l'abbaye de Keur-Moussa, fournit un soutien essentiel, y compris le matériel scolaire, pour aider les enfants à s'épanouir académiquement et personnellement.",
-    "images": ["/projects/kerr.webp", "/projects/ker.webp", "/projects/ke.webp", "/projects/k.webp"]
-  }
-],
-  "contactCTA": {
-    "title": "Découvrez comment vous impliquer dans nos actions communautaires",
-    "description": "Nous sommes toujours ravis de nous connecter avec des personnes et des organisations passionnées. Contactez-nous pour savoir comment vous pouvez contribuer aux programmes d'ASCA Luxembourg et aider les enfants à s'épanouir.",
-    "button": "Contactez-nous"
-  },
-  "testimonialHero": {
-    "title": "Découvrez les témoignages de personnes dont la vie a été transformée par nos programmes et constatez l'impact réel de votre soutien.",
-    "cta": "Participez"
-  },
-  "testimonialSection": {
-    "header": "Ce que disent les gens",
-    "testimonials": [
-      {
-        "quote": "La compassion et l'engagement démontrés par l'équipe ASCA ont fait une réelle différence dans le parcours éducatif de notre enfant.",
-        "name": "Enseignant et Bénévole"
-      },
-      {
-        "quote": "Le soutien expert d'ASCA Luxembourg aide les élèves vulnérables à surmonter les obstacles et à gagner en confiance dans leurs capacités.",
-        "name": "Coordinateur de sensibilisation communautaire"
-      },
-      {
-        "quote": "En tant que bénévole, j'ai été témoin de l'impact incroyable d'ASCA sur les enfants vulnérables. Leur dévouement à créer des environnements sûrs et bienveillants est vraiment inspirant.",
-        "name": "Sophie Laurent"
-      },
-      {
-        "quote": "Leur approche holistique garantit que les enfants restent non seulement à l'école, mais se sentent valorisés et soutenus à chaque étape.",
-        "name": "Travailleur social"
-      }
-    ]
-  },
-  "donateMissionSection": {
-    "paragraphs": {
-      "p1": "Votre générosité nous aide à soutenir les enfants confrontés à la pauvreté, au décrochage scolaire, à la faim et à l’isolement. Chaque contribution renforce notre capacité à fournir un soutien éducatif, une alimentation et un accompagnement émotionnel à ceux qui en ont le plus besoin.",
-      "p2": "Chez ASCA Luxembourg, nous croyons au pouvoir de l’action collective. Chaque donateur devient partie prenante d’une mission commune — construire un monde plus juste où chaque enfant a la possibilité d’apprendre, de grandir et de s’épanouir avec dignité."
-    }
-  },
-  "footer": {
-    "organization": "ASCA Luxembourg",
-    "organizationDetails": "Appui Scolaire Carlo Acutis \nAssociation Sans But Lucratif - ASBL \nNuméro d’enregistrement : F14177",
-    "quickLinks": "Liens rapides",
-    "links": {
-      "home": "Accueil",
-      "about": "À propos",
-      "projects": "Projets",
-      "testimonials": "Témoignages",
-      "donate": "Faire un don",
-      "legal": "Mentions Légales"
-    },
-    "addressTitle": "Adresse",
-    "addressDetails": "21, Bënzelter Wee\nL-9742 Boxhorn\nGrand-Duché de Luxembourg",
-    "contactTitle": "Contact",
-    "bottomText": "© 2026 ASCA Luxembourg. Tous droits réservés."
-  },
-  "bankDetails": {
-    "title": "Coordonnées bancaires",
-    "subtitle": "Soutenez ASCA Luxembourg par virement bancaire",
-    "accountHolder": "Titulaire du compte",
-    "iban": "Numéro de Compte Bancaire International (IBAN)",
-    "bic": "Code d'Identification Bancaire (BIC)",
-    "bankName": "Banque",
-    "address": "Adresse de l'organisation",
-    "copy": "Copier",
-    "note": "Veuillez inclure votre nom et email dans la référence du virement afin que nous puissions vous envoyer un reçu et une confirmation."
-  },
-  "legal": {
-  "title": "Mentions Légales",
-  "subtitle": "Retrouvez les informations légales officielles et les détails relatifs à la propriété de ce site.",
-  "lastUpdated": "Ces mentions légales ont été mises à jour le 5 janvier 2026.",
-  "ownerTitle": "Le propriétaire de ce site est :",
-  "ownerDetails": "Asca Luxembourg\n21, Bënzelter Wee\nL-9742 Boxhorn, Grand-Duché de Luxembourg",
-  "ownerEmail": "info@ascal.eu",
-  "ownerPhone": "+49 (0)178 / 486 7057",
-  "representativesTitle": "Représentants légaux :",
-  "representativesDetails": "Gaston Manirakiza",
-  "generalTitle": "Général",
-  "generalText": "Nous sommes une association sans but lucratif enregistrée sous le numéro d'enregistrement : F14177",
-  "disputeText": "Nous ne sommes pas disposés ni obligés de participer à des procédures de résolution des litiges devant un conseil d'arbitrage à la consommation."
-}
 }

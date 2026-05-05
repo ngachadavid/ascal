@@ -234,5 +234,10 @@
     "generalTitle": "Allgemeines",
     "generalText": "Wir sind ein gemeinnütziger Verein, eingetragen unter der Registrierungsnummer: F14177",
     "disputeText": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+  },
+  "thankYou": {
+    "title": "Vielen Dank für Ihre Spende!",
+    "message": "Ihre Großzügigkeit hilft ASCA Luxemburg, gefährdete Kinder durch Bildung und Fürsorge zu unterstützen. Wir sind Ihnen zutiefst dankbar.",
+    "button": "Zurück zur Startseite"
   }
 }

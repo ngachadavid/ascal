@@ -1,0 +1,53 @@
+.thankyou-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 24px;
+}
+
+.thankyou-container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.thankyou-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thankyou-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+}
+
+.thankyou-message {
+    font-size: 1.125rem;
+    color: #444;
+    line-height: 1.7;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .thankyou-title {
+        font-size: 1.5rem;
+    }
+
+    .thankyou-message {
+        font-size: 1rem;
+    }
+}
