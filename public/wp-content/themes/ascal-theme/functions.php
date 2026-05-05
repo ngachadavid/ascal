@@ -338,3 +338,13 @@ add_action('wp_head', function () {
 <?php
 
 }, 1); // priority 1 = runs early, before wp_head plugins
+
+// ───── Stripe Checkout Session ─────
+add_action('wp_ajax_nopriv_create_stripe_session', 'ascal_create_stripe_session');
+add_action('wp_ajax_create_stripe_session', 'ascal_create_stripe_session');
+
+function ascal_create_stripe_session()
+{
+    require_once get_template_directory() . '/includes/create-checkout-session.php';
+    exit;
+}
