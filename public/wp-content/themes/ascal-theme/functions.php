@@ -119,9 +119,7 @@ function ascal_get_lang()
     // 1. Check URL param first — ?lang=fr
     if (isset($_GET['lang']) && in_array($_GET['lang'], $supported)) {
         $lang = $_GET['lang'];
-        // Save to cookie for future page loads (30 days)
         setcookie('ascal_lang', $lang, time() + (30 * DAY_IN_SECONDS), '/');
-        // Redirect to same URL without ?lang= param
         wp_redirect(remove_query_arg('lang'));
         exit;
     }
@@ -131,8 +129,50 @@ function ascal_get_lang()
         return $_COOKIE['ascal_lang'];
     }
 
-    // 3. Default to English
-    return 'en';
+    // 3. Geolocation — only on first visit (no cookie yet)
+    $lang = ascal_detect_lang_by_ip();
+    setcookie('ascal_lang', $lang, time() + (30 * DAY_IN_SECONDS), '/');
+    return $lang;
+}
+
+function ascal_detect_lang_by_ip()
+{
+    // Country → language map
+    $country_map = [
+        'FR' => 'fr', // France → French
+        'DE' => 'de', // Germany → German
+        'LU' => 'en', // Luxembourg → English (default)
+    ];
+
+    // Get visitor IP (works behind proxies too)
+    $ip = $_SERVER['HTTP_CLIENT_IP']
+        ?? $_SERVER['HTTP_X_FORWARDED_FOR']
+        ?? $_SERVER['REMOTE_ADDR']
+        ?? '';
+
+    // Strip multiple IPs if behind a proxy (take the first one)
+    if (str_contains($ip, ',')) {
+        $ip = trim(explode(',', $ip)[0]);
+    }
+
+    // Skip geolocation for local/dev environments
+    if (empty($ip) || $ip === '127.0.0.1' || $ip === '::1') {
+        return 'en';
+    }
+
+    // Call ip-api.com (free, no key, 45 req/min limit)
+    $response = wp_remote_get("http://ip-api.com/json/{$ip}?fields=countryCode", [
+        'timeout' => 2, // don't slow down page load if API is slow
+    ]);
+
+    if (is_wp_error($response)) {
+        return 'en';
+    }
+
+    $body = json_decode(wp_remote_retrieve_body($response), true);
+    $country = $body['countryCode'] ?? '';
+
+    return $country_map[$country] ?? 'en';
 }
 
 function ascal_load_translations()
@@ -177,7 +217,7 @@ function _t($key, $fallback = '')
 
 
 // ───── Document Titles ─────
-add_filter('document_title_parts', function($title) {
+add_filter('document_title_parts', function ($title) {
     if (is_front_page()) {
         $title['title'] = 'ASCA Luxembourg | Supporting Vulnerable Children Through Education & Care';
         unset($title['site']);
@@ -204,7 +244,7 @@ add_filter('document_title_parts', function($title) {
 });
 
 // ───── Meta Description + Open Graph + Twitter ─────
-add_action('wp_head', function() {
+add_action('wp_head', function () {
 
     if (is_front_page()):
         $desc    = 'ASCA Luxembourg (Appui Scolaire Carlo Acutis) is a non-profit organization dedicated to supporting orphaned and vulnerable children through education, nutrition, emotional care, and community empowerment.';
@@ -266,26 +306,26 @@ add_action('wp_head', function() {
         return;
     endif;
 
-    ?>
+?>
     <meta name="description" content="<?php echo esc_attr($desc); ?>">
 
     <!-- Open Graph -->
-    <meta property="og:title"       content="<?php echo esc_attr($og_title); ?>">
+    <meta property="og:title" content="<?php echo esc_attr($og_title); ?>">
     <meta property="og:description" content="<?php echo esc_attr($og_desc); ?>">
-    <meta property="og:url"         content="<?php echo esc_url($og_url); ?>">
-    <meta property="og:site_name"   content="ASCA Luxembourg">
-    <meta property="og:image"       content="<?php echo esc_url($og_image); ?>">
-    <meta property="og:image:alt"   content="<?php echo esc_attr($og_img_alt); ?>">
+    <meta property="og:url" content="<?php echo esc_url($og_url); ?>">
+    <meta property="og:site_name" content="ASCA Luxembourg">
+    <meta property="og:image" content="<?php echo esc_url($og_image); ?>">
+    <meta property="og:image:alt" content="<?php echo esc_attr($og_img_alt); ?>">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height"content="630">
-    <meta property="og:type"        content="website">
-    <meta property="og:locale"      content="en_US">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
-    <meta name="twitter:card"        content="summary_large_image">
-    <meta name="twitter:title"       content="<?php echo esc_attr($og_title); ?>">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo esc_attr($og_title); ?>">
     <meta name="twitter:description" content="<?php echo esc_attr($og_desc); ?>">
-    <meta name="twitter:image"       content="<?php echo esc_url($og_image); ?>">
-    <?php
+    <meta name="twitter:image" content="<?php echo esc_url($og_image); ?>">
+<?php
 
 }, 1); // priority 1 = runs early, before wp_head plugins
