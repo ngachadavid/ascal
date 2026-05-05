@@ -29,3 +29,5 @@ Thumbs.db
 
 # Ignore wp-config local
 wp-config-local.php
+
+public/wp-content/themes/ascal-theme/includes/stripe-php/
