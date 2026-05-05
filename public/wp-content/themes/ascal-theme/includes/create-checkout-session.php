@@ -28,7 +28,7 @@ try {
         ]);
 
         $session = \Stripe\Checkout\Session::create([
-            'payment_method_types' => ['card'],
+            // 'payment_method_types' => ['card', 'paypal'],
             'line_items'           => [[
                 'price'    => $price->id,
                 'quantity' => 1,
@@ -39,7 +39,7 @@ try {
         ]);
     } else {
         $session = \Stripe\Checkout\Session::create([
-            'payment_method_types' => ['card'],
+            // 'payment_method_types' => ['card'],
             'line_items'           => [[
                 'price_data' => [
                     'currency'     => 'eur',
