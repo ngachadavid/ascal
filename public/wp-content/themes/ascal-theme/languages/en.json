@@ -187,6 +187,19 @@
         "title": "Hear from people whose lives have been transformed by our programs and see the real impact your support can make.",
         "cta": "Get Involved"
     },
+    "donate": {
+        "title": "Make a Donation",
+        "subtitle": "Choose how you'd like to support ASCA Luxembourg",
+        "tabs": {
+            "card": "Credit Card",
+            "bank": "Bank Transfer"
+        },
+        "oneTime": "One-time",
+        "monthly": "Monthly",
+        "customAmount": "Or enter a custom amount",
+        "button": "Donate Now",
+        "secure": "Secure payment via Stripe"
+    },
     "donateMissionSection": {
         "paragraphs": {
             "p1": "Your generosity helps us stand beside children facing poverty, school dropout, hunger, and isolation. Every contribution strengthens our ability to provide education support, nourishment, and emotional care to those who need it most.",

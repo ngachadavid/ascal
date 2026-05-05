@@ -118,3 +118,93 @@ if (contactForm) {
     });
 }
 
+// ───── Donate Page ─────
+document.addEventListener('DOMContentLoaded', function () {
+
+    // Tab switching
+    const tabs = document.querySelectorAll('.donate-tab');
+    const tabContents = document.querySelectorAll('.donate-tab-content');
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function () {
+            tabs.forEach(t => t.classList.remove('active'));
+            tabContents.forEach(c => c.classList.remove('active'));
+            this.classList.add('active');
+            document.getElementById('tab-' + this.dataset.tab).classList.add('active');
+        });
+    });
+
+    // Type toggle (one-time / monthly)
+    const typeButtons = document.querySelectorAll('.donate-type-btn');
+    let selectedType = 'one_time';
+
+    typeButtons.forEach(btn => {
+        btn.addEventListener('click', function () {
+            typeButtons.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            selectedType = this.dataset.type;
+        });
+    });
+
+    // Amount picker
+    const amountButtons = document.querySelectorAll('.donate-amount-btn');
+    const customInput = document.getElementById('custom-amount');
+    let selectedAmount = 50;
+
+    amountButtons.forEach(btn => {
+        btn.addEventListener('click', function () {
+            amountButtons.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            selectedAmount = parseInt(this.dataset.amount);
+            if (customInput) customInput.value = '';
+        });
+    });
+
+    if (customInput) {
+        customInput.addEventListener('input', function () {
+            amountButtons.forEach(b => b.classList.remove('active'));
+            selectedAmount = parseInt(this.value) || 0;
+        });
+    }
+
+    // Submit
+    const submitBtn = document.getElementById('donate-submit');
+    if (submitBtn) {
+        submitBtn.addEventListener('click', async function () {
+            if (selectedAmount <= 0) {
+                alert('Please enter a valid amount.');
+                return;
+            }
+
+            submitBtn.disabled = true;
+            submitBtn.textContent = '...';
+
+            const formData = new FormData();
+            formData.append('action', 'create_stripe_session');
+            formData.append('amount', selectedAmount);
+            formData.append('type', selectedType);
+
+            try {
+                const response = await fetch(ascalData.ajaxUrl, {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                const data = await response.json();
+
+                if (data.url) {
+                    window.location.href = data.url;
+                } else {
+                    alert('Something went wrong. Please try again.');
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Donate Now';
+                }
+            } catch (err) {
+                alert('Something went wrong. Please try again.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Donate Now';
+            }
+        });
+    }
+});
+

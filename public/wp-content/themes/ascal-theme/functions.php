@@ -348,3 +348,10 @@ function ascal_create_stripe_session()
     require_once get_template_directory() . '/includes/create-checkout-session.php';
     exit;
 }
+
+// ───── Pass AJAX URL to JS ─────
+add_action('wp_enqueue_scripts', function () {
+    wp_localize_script('ascal-main', 'ascalData', [
+        'ajaxUrl' => admin_url('admin-ajax.php'),
+    ]);
+});

@@ -260,5 +260,18 @@
         "title": "Merci pour votre don !",
         "message": "Votre générosité aide ASCA Luxembourg à soutenir les enfants vulnérables grâce à l'éducation et aux soins. Nous vous en sommes profondément reconnaissants.",
         "button": "Retour à l'accueil"
+    },
+    "donate": {
+        "title": "Faire un don",
+        "subtitle": "Choisissez comment soutenir ASCA Luxembourg",
+        "tabs": {
+            "card": "Carte de crédit",
+            "bank": "Virement bancaire"
+        },
+        "oneTime": "Unique",
+        "monthly": "Mensuel",
+        "customAmount": "Ou entrez un montant personnalisé",
+        "button": "Faire un don",
+        "secure": "Paiement sécurisé via Stripe"
     }
 }

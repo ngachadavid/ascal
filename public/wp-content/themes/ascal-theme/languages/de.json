@@ -239,5 +239,18 @@
     "title": "Vielen Dank für Ihre Spende!",
     "message": "Ihre Großzügigkeit hilft ASCA Luxemburg, gefährdete Kinder durch Bildung und Fürsorge zu unterstützen. Wir sind Ihnen zutiefst dankbar.",
     "button": "Zurück zur Startseite"
-  }
+  },
+  "donate": {
+    "title": "Spenden",
+    "subtitle": "Wählen Sie, wie Sie ASCA Luxemburg unterstützen möchten",
+    "tabs": {
+        "card": "Kreditkarte",
+        "bank": "Banküberweisung"
+    },
+    "oneTime": "Einmalig",
+    "monthly": "Monatlich",
+    "customAmount": "Oder geben Sie einen eigenen Betrag ein",
+    "button": "Jetzt spenden",
+    "secure": "Sichere Zahlung über Stripe"
+}
 }
